@@ -1,0 +1,12 @@
+ticker,company,action,approx_date,size_pct_portfolio,source_of_trade,stated_rationale,rationale_source,candidate_for_calibration
+# Candidates only: verify every row against the primary source before using it. Size is % of Berkshire's equity portfolio at the time where known.
+KO,Coca-Cola,BUY,1988-1989,~20-25%,1988/1989 letters,"Brand franchise, pricing power, global unit growth; Goizueta's refocusing and buybacks",brk-letter-1988; brk-letter-1989,yes (leakage benchmark)
+IBM,IBM,BUY,2011 (disclosed Nov 2011),~10% (verify),"CNBC interview Nov 2011; 13F",Customer entrenchment in IT services; buybacks; long-term EPS roadmap,brk-letter-2011,yes (admitted mistake)
+IBM,IBM,SELL,2017-2018,,13F; AGM 2017/2018,"Admitted he had misjudged it; competitive position weaker than thought",agm-2017; agm-2018,optional
+DAL/LUV/UAL/AAL,US airlines,SELL,2020-04,,13F; AGM 2020,"Pandemic changed the industry's future in ways he couldn't estimate",agm-2020,yes (sell)
+8001/8002/8031/8053/8058.T,Five Japanese trading houses,BUY,2020-08,,Press release Aug 2020,"Undervalued diversified businesses, shareholder-friendly capital allocation, yen-funded",brk-letter-2020; brk-japan-2020-release,yes (less memorized)
+0857.HK,PetroChina,BUY,2002-2003,,HK disclosure 2003,"Valuation vs. oil reserves and earnings; dividend payout",brk-letter-2002; brk-letter-2003; brk-letter-2007,yes (obscure)
+0857.HK,PetroChina,SELL,2007,,2007 letter,"Valuation had caught up with oil price assumptions",brk-letter-2007,optional
+(tech),Dot-com era technology stocks,PASS,1999,,1999 letter; Sun Valley 1999; fortune-1999-market,"Outside circle of competence; market valuations implied unrealistic returns",brk-letter-1999; fortune-1999-market,yes (pass)
+TSCO.L,Tesco,SELL,2014,,2014 letter,"Admitted mistake: was slow to sell as problems mounted",brk-letter-2014,optional
+GEICO,GEICO,BUY,1976,,1976-1980 letters,"Low-cost insurer franchise intact despite near-insolvency; Jack Byrne's turnaround",brk-letter-1977; brk-letter-1980,optional (pre-EDGAR)

@@ -1,0 +1,10 @@
+trade: 1988-ko-buy
+as_of: 1988-06-30
+actual_decision: BUY
+actual_size_pct: 20
+documented_reasons:
+  - reason: "Brand with pricing power and unit volume growing internationally"
+    source: brk-letter-1988
+  - reason: "Management (Goizueta) refocused on the core business and was buying back stock"
+    source: brk-letter-1989
+notes: "Reasons drawn from letters written after the trade; the agent never sees these."

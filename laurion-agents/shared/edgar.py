@@ -14,6 +14,7 @@ Point-in-Time via WRDS.
 
 Usage:
   python -m shared.edgar filings KO 1988-06-30
+  python -m shared.edgar filings 1067983 2012-01-01 13F-HR    # Berkshire's 13Fs
   python -m shared.edgar facts KO 2015-03-31 Revenues NetIncomeLoss
 """
 
@@ -110,7 +111,8 @@ def facts_as_of(ticker_or_cik: str, as_of: date, concepts: List[str],
 if __name__ == "__main__":
     cmd, who, when = sys.argv[1], sys.argv[2], date.fromisoformat(sys.argv[3])
     if cmd == "filings":
-        for f in list_filings(who, when)[:25]:
+        forms = tuple(sys.argv[4:]) or ("10-K", "10-Q", "8-K", "DEF 14A")
+        for f in list_filings(who, when, forms)[:25]:
             print(f["filing_date"], f["form"], f["url"])
     elif cmd == "facts":
         for c, rows in facts_as_of(who, when, sys.argv[4:]).items():

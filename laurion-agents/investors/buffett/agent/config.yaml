@@ -1,0 +1,33 @@
+investor: "Warren Buffett"
+model: claude-opus-5-5
+effort: high                # low | medium | high | xhigh | max
+server_side_fallbacks: true # retry on a fallback model if a request is declined
+
+# Searched against the archive (only docs published before the as-of date).
+# Use the investor's own vocabulary.
+retrieval_queries:
+  - "durable competitive advantage moat franchise pricing power"
+  - "owner earnings intrinsic value"
+  - "return on equity without leverage capital required"
+  - "management candor capital allocation able and honest"
+  - "circle of competence simple business understand"
+  - "price we pay margin of safety bargain"
+  - "size handicap large sums deploy capital"
+  - "mistakes why we sold"
+passages_per_query: 3
+
+# Worked analyses the investor wrote themselves. Only those published
+# before a packet's as-of date are shown. Never use a calibration trade here.
+examples: []
+#  - path: examples/1985-example.md
+#    source: brk-letter-1985
+#    date_published: 1986-03-04
+
+# One conversation, one turn per stage. output: text | gate | decision | memo
+stages:
+  - {id: gatekeeper, prompt: prompts/01_gatekeeper.md, output: gate}
+  - {id: business,   prompt: prompts/02_business.md,   output: text}
+  - {id: management, prompt: prompts/03_management.md, output: text}
+  - {id: valuation,  prompt: prompts/04_valuation.md,  output: text}
+  - {id: decision,   prompt: prompts/05_decision.md,   output: decision}
+  - {id: memo,       prompt: prompts/06_memo.md,       output: memo}
