@@ -1,0 +1,2 @@
+ticker,company,action,approx_date,size_pct_portfolio,source_of_trade,stated_rationale,rationale_source,candidate_for_calibration
+# action: BUY|ADD|HOLD|TRIM|SELL|PASS. source_of_trade: 13F filing, letter, etc.

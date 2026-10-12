@@ -1,0 +1,3 @@
+id,title,author,type,date_published,path,source_url,primary,tickers_mentioned
+# date_published = the first date the public could read it (not the period it covers). type: letter|memo|interview|talk|book|filing|secondary
+example-letter-1990,Example Annual Letter 1990,Investor Name,letter,1991-03-01,docs/example-letter-1990.md,https://example.com,true,

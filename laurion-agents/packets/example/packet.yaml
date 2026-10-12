@@ -1,0 +1,22 @@
+# An information packet: everything the agent may see on the as-of date.
+ticker: EXMP
+company: Example Corp
+as_of: 2015-03-31            # the agent stands on this date
+question: "Should we buy Example Corp at today's price, and how much?"
+
+# Every document must have been PUBLIC before as_of (loading fails otherwise).
+documents:
+  - id: 10k-2014
+    type: 10-K
+    date_published: 2015-02-20
+    path: 10k-2014-excerpt.md
+  - id: fin-summary
+    type: financials
+    date_published: 2015-02-20
+    path: financials.md
+
+# Used with --anonymize. Include names, tickers, brands, executives, cities.
+aliases:
+  Example Corp: Company A
+  EXMP: AAA
+  Jane Smith: the CEO

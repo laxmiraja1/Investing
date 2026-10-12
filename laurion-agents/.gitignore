@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+# Copyrighted source material (books, paid transcripts) stays local.
+# Keep a manifest row for it, but don't commit the file itself.
+investors/*/archive/private/
