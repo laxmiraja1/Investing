@@ -34,7 +34,7 @@ packets/example/       example information packet
 1. **Start your investor folder.** Run `cp -r investors/_template investors/<name>` and set `investor:` in `agent/config.yaml`.
 2. **Build the archive.** Add documents under `archive/docs/` with a row in `archive/manifest.csv`. `date_published` is the date the public could first read the document; everything point-in-time depends on it. Copyrighted material goes in `archive/private/`, which git ignores.
 3. **Log trades.** Fill in `trades.csv` from 13Fs and letters.
-4. **Write `framework.md`.** Write it section by section, with citations. The stage prompts in `agent/prompts/` refer to these section names, so keep them in sync. Edit the stage list and prompts in `config.yaml` to match how your investor actually works. For example, an activist needs a catalyst stage, and a macro trader needs different stages entirely.
+4. **Write `framework.md`.** Write it section by section, with citations. `python -m shared.verify_quotes investors/<name>` checks that every quote is verbatim in the cited archive file. The stage prompts in `agent/prompts/` refer to these section names, so keep them in sync. Edit the stage list and prompts in `config.yaml` to match how your investor actually works. For example, an activist needs a catalyst stage, and a macro trader needs different stages entirely.
 5. **Build calibration packets.** For each trade, create `calibration/<trade>/packet/` (see `packets/example/packet.yaml`) and `calibration/<trade>/truth.yaml`. Every packet document must predate `as_of`, and loading fails if one doesn't. Fill in `aliases` so the packet can be anonymized.
 6. **Run and score:**
    ```bash
