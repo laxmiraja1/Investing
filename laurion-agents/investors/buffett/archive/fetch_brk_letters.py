@@ -73,7 +73,22 @@ def fetch(url: str) -> requests.Response:
     return r
 
 
+def fix_c1(text: str) -> str:
+    """Some letters carry Windows-1252 punctuation as Unicode control
+    characters (U+0093 for a left quote, U+0096 for a dash). Map them back."""
+    def one(m):
+        try:
+            return bytes([ord(m.group(0))]).decode("cp1252")
+        except UnicodeDecodeError:
+            return ""
+    return re.sub("[\x80-\x9f]", one, text)
+
+
 def letter_text(year: int, url: str) -> str:
+    return fix_c1(_letter_text(year, url))
+
+
+def _letter_text(year: int, url: str) -> str:
     r = fetch(url)
     if url.lower().endswith(".pdf"):
         return pdf_to_text(r.content)
@@ -84,7 +99,7 @@ def letter_text(year: int, url: str) -> str:
         inner = re.findall(rf'href="({year}[^"]*\.(?:html|pdf))"', html, re.I)
         if inner:
             inner.sort(key=lambda h: not h.lower().endswith(".html"))  # prefer HTML
-            return letter_text(year, urljoin(url, inner[0]))
+            return _letter_text(year, urljoin(url, inner[0]))
     return text
 
 

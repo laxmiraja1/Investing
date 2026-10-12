@@ -5,8 +5,9 @@ Everything listed is already a row in `manifest.csv`; put the text file at that 
 | Source | Coverage | Where | Notes |
 |---|---|---|---|
 | Berkshire shareholder letters | 1977-2024 | berkshirehathaway.com/letters | `python investors/buffett/archive/fetch_brk_letters.py` downloads them. Core of the archive. |
-| Buffett Partnership letters | 1957-1969 | Compiled online; Miller, *Ground Rules* | Graham-era framework: generals, workouts, controls. Essential for any pre-1970 trade. |
-| Annual meeting Q&A | 1994-2024 | CNBC Warren Buffett Archive (buffett.cnbc.com) | Full transcripts and video. Best source for *why he sold* (e.g. airlines 2020, IBM 2017-18). |
+| Buffett Partnership letters | 1957-1970 | Compiled online; Miller, *Ground Rules* | `python investors/buffett/archive/fetch_sources.py bpl` splits a public compilation into 29 dated letters. Graham-era framework: generals, workouts, controls. Essential for any pre-1970 trade. |
+| Annual meeting Q&A | 1994-2024 | CNBC Warren Buffett Archive (buffett.cnbc.com) | `fetch_sources.py agm` saves both sessions per year. Best source for *why he sold* (e.g. airlines 2020, IBM 2017-18). |
+| Fortune 1977/1999/2001, Superinvestors, Owner's Manual | | fortune.com, berkshirehathaway.com, public PDF | `fetch_sources.py articles`. The NYT 2008 op-ed is paywalled: save it by hand. |
 | Owner's Manual | 1983, rev. 1996 | Berkshire annual reports | His own statement of operating principles. |
 | Superinvestors of Graham-and-Doddsville | 1984 | Columbia Business School | Value investing defended against efficient-market theory. |
 | Fortune / Forbes / NYT pieces | 1974-2008 | Magazine archives (Factiva/ProQuest via Baker Library) | Market-level views: inflation 1977, 1999 bubble, 2008 "Buy American". |
