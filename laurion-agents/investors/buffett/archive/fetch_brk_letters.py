@@ -14,6 +14,7 @@ them separately (see sources.md).
 
 import csv
 import io
+import logging
 import re
 import sys
 import time
@@ -27,15 +28,28 @@ INDEX = "https://www.berkshirehathaway.com/letters/letters.html"
 HERE = Path(__file__).parent
 OUT = HERE / "private" / "letters"
 HEADERS = {"User-Agent": "laurion-agents research (academic project)"}
+MIN_WORDS = 2000  # every real letter is longer; shorter means a bad download
+
+logging.getLogger("pypdf").setLevel(logging.ERROR)  # font-encoding noise
 
 
 class _Text(HTMLParser):
     def __init__(self):
         super().__init__()
         self.parts = []
+        self._skip = 0
+
+    def handle_starttag(self, tag, attrs):
+        if tag in ("script", "style"):
+            self._skip += 1
+
+    def handle_endtag(self, tag):
+        if tag in ("script", "style") and self._skip:
+            self._skip -= 1
 
     def handle_data(self, data):
-        self.parts.append(data)
+        if not self._skip:
+            self.parts.append(data)
 
 
 def html_to_text(html: str) -> str:
@@ -47,6 +61,31 @@ def html_to_text(html: str) -> str:
 def pdf_to_text(data: bytes) -> str:
     from pypdf import PdfReader
     return "\n".join(page.extract_text() or "" for page in PdfReader(io.BytesIO(data)).pages)
+
+
+def fetch(url: str) -> requests.Response:
+    # The site sends some pages Brotli-compressed whether or not we ask;
+    # requests decodes them only when the `brotli` package is installed.
+    r = requests.get(url, headers=HEADERS, timeout=60)
+    r.raise_for_status()
+    if r.headers.get("Content-Encoding", "").lower() == "br" and r.content[:1] not in (b"<", b"%"):
+        sys.exit("Got undecoded Brotli content: pip install -r requirements.txt (needs brotli).")
+    return r
+
+
+def letter_text(year: int, url: str) -> str:
+    r = fetch(url)
+    if url.lower().endswith(".pdf"):
+        return pdf_to_text(r.content)
+    html = r.content.decode("cp1252", errors="replace")  # pages are Word-97 HTML, windows-1252
+    text = html_to_text(html)
+    if len(text.split()) < MIN_WORDS:
+        # 1998-2003: a landing page linking to separate HTML and PDF versions.
+        inner = re.findall(rf'href="({year}[^"]*\.(?:html|pdf))"', html, re.I)
+        if inner:
+            inner.sort(key=lambda h: not h.lower().endswith(".html"))  # prefer HTML
+            return letter_text(year, urljoin(url, inner[0]))
+    return text
 
 
 def letter_links() -> dict:
@@ -64,16 +103,20 @@ def main() -> None:
     links = letter_links()
     if not links:
         sys.exit("No letter links found -- the index page layout may have changed.")
+    short = []
     for year, url in sorted(links.items()):
         dest = OUT / f"brk-{year}.txt"
-        if dest.exists():
+        if dest.exists() and len(dest.read_text(encoding="utf-8").split()) >= MIN_WORDS:
             continue
-        r = requests.get(url, headers=HEADERS, timeout=60)
-        r.raise_for_status()
-        text = pdf_to_text(r.content) if url.lower().endswith(".pdf") else html_to_text(r.text)
+        text = letter_text(year, url)
         dest.write_text(text, encoding="utf-8")
-        print(f"{year}: {len(text.split()):,} words  <- {url}")
+        words = len(text.split())
+        print(f"{year}: {words:,} words  <- {url}")
+        if words < MIN_WORDS:
+            short.append(year)
         time.sleep(0.5)
+    if short:
+        print("Suspiciously short (check by hand):", *short)
 
     with (HERE / "manifest.csv").open(newline="", encoding="utf-8") as f:
         wanted = [r["path"] for r in csv.DictReader(f)

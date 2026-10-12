@@ -1,5 +1,5 @@
-anthropic>=1.13
 pydantic>=2
 pyyaml>=6
 requests>=2.31
+brotli>=1.1         # berkshirehathaway.com sends Brotli-compressed pages unasked
 pypdf>=4

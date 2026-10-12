@@ -10,27 +10,27 @@ Context the model sees:
   turn 1   = the investor's own writing (archive, filtered to before as_of)
              + worked examples dated before as_of + the information packet
   turn 2.. = one stage instruction per turn
+
+Model calls go through headless Claude Code (`claude -p`); see claude_cli.py.
 """
 
 import json
+import uuid
 from dataclasses import dataclass, field
 from datetime import date
 from pathlib import Path
 from typing import List, Optional
 
-import anthropic
 import yaml
 
+from . import claude_cli
 from .archive import Archive
+from .claude_cli import RefusalError  # noqa: F401  (re-exported)
 from .packet import Packet
 from .schema import Decision, GateResult, LeakageProbe
 
 SHARED = Path(__file__).parent
 OUTPUT_TYPES = {"gate": GateResult, "decision": Decision}
-
-
-class RefusalError(RuntimeError):
-    pass
 
 
 @dataclass
@@ -51,24 +51,23 @@ class RunResult:
 
 
 class InvestorAgent:
-    def __init__(self, investor_dir: Path, client: Optional[anthropic.Anthropic] = None):
+    def __init__(self, investor_dir: Path):
         self.dir = Path(investor_dir)
         self.cfg = yaml.safe_load((self.dir / "agent" / "config.yaml").read_text())
-        self.client = client or anthropic.Anthropic()
         self.archive = Archive(self.dir)
         self.framework = (self.dir / "framework.md").read_text(encoding="utf-8")
         self.model = self.cfg.get("model", "claude-opus-5-5")
         self.effort = self.cfg.get("effort", "high")
-        self.use_fallbacks = self.cfg.get("server_side_fallbacks", True)
+        if self.cfg.get("server_side_fallbacks", False):
+            raise ValueError("server_side_fallbacks is not supported with claude -p; "
+                             "set it to false in agent/config.yaml.")
 
     # ---- context ---------------------------------------------------------
 
-    def system_prompt(self) -> list:
+    def system_prompt(self) -> str:
         base = (SHARED / "prompts" / "system.md").read_text(encoding="utf-8")
-        text = base.replace("{{INVESTOR}}", self.cfg["investor"]) + \
+        return base.replace("{{INVESTOR}}", self.cfg["investor"]) + \
             "\n\n<framework>\n" + self.framework + "\n</framework>"
-        # Stable across every stage and run -> cache it.
-        return [{"type": "text", "text": text, "cache_control": {"type": "ephemeral"}}]
 
     def investor_writing(self, packet: Packet, result: RunResult) -> str:
         queries = list(self.cfg.get("retrieval_queries", []))
@@ -98,38 +97,21 @@ class InvestorAgent:
 
     # ---- model calls -----------------------------------------------------
 
-    def _call(self, messages: list, output_type=None, max_tokens: int = 16000):
-        kwargs = dict(
-            model=self.model,
-            max_tokens=max_tokens,
+    def _call(self, prompt: str, output_type=None, max_tokens: int = 16000,
+              session_id: Optional[str] = None, resume: bool = False):
+        """One turn via claude -p. Returns (raw result, parsed model or None)."""
+        out = claude_cli.call(
+            prompt,
             system=self.system_prompt(),
-            messages=messages,
-            output_config={"effort": self.effort},
+            model=self.model,
+            effort=self.effort,
+            schema=output_type.model_json_schema() if output_type else None,
+            session_id=session_id,
+            resume=resume,
+            max_tokens=max_tokens,
         )
-        if self.use_fallbacks:
-            # On a safety-classifier decline, the API retries on Anthropic's
-            # recommended fallback model instead of returning the refusal.
-            kwargs["extra_headers"] = {"anthropic-beta": "server-side-fallback-2026-07-01"}
-            kwargs["extra_body"] = {"fallbacks": "default"}
-        if output_type:
-            resp = self.client.messages.parse(output_format=output_type, **kwargs)
-        else:
-            resp = self.client.messages.create(**kwargs)
-        if resp.stop_reason == "refusal":
-            raise RefusalError(str(resp.stop_details))
-        if resp.stop_reason == "max_tokens":
-            raise RuntimeError("Hit max_tokens; raise max_tokens for this stage.")
-        return resp
-
-    @staticmethod
-    def _as_history(resp) -> dict:
-        # Echo the assistant turn back unchanged (thinking blocks included).
-        content = [b.model_dump(exclude_none=True, exclude={"parsed_output"}) for b in resp.content]
-        return {"role": "assistant", "content": content}
-
-    @staticmethod
-    def _text(resp) -> str:
-        return "".join(b.text for b in resp.content if b.type == "text")
+        parsed = output_type.model_validate(out["structured_output"]) if output_type else None
+        return out, parsed
 
     # ---- pipeline --------------------------------------------------------
 
@@ -140,19 +122,21 @@ class InvestorAgent:
             self.examples(packet.as_of),
             "<information_packet>\n" + packet.render() + "\n</information_packet>",
         ]))
-        messages: list = []
+        # One Claude Code session per run; each stage resumes it.
+        session_id = str(uuid.uuid4())
+        session_cost = 0.0
         for i, stage in enumerate(self.cfg["stages"]):
             instruction = (self.dir / "agent" / stage["prompt"]).read_text(encoding="utf-8")
             content = f"{opening}\n\n{instruction}" if i == 0 else instruction
-            messages.append({"role": "user", "content": content})
 
             output_type = OUTPUT_TYPES.get(stage.get("output", "text"))
-            resp = self._call(messages, output_type, stage.get("max_tokens", 16000))
-            messages.append(self._as_history(resp))
-            result.usage.append({"stage": stage["id"], **resp.usage.model_dump(exclude_none=True)})
+            out, model = self._call(content, output_type, stage.get("max_tokens", 16000),
+                                    session_id=session_id, resume=i > 0)
+            result.usage.append({"stage": stage["id"], **claude_cli.usage_record(out, session_cost)})
+            session_cost = out.get("total_cost_usd") or session_cost
 
-            parsed = resp.parsed_output.model_dump() if output_type else None
-            result.stages.append(StageResult(stage["id"], self._text(resp), parsed))
+            parsed = model.model_dump() if model else None
+            result.stages.append(StageResult(stage["id"], out.get("result", ""), parsed))
 
             if stage.get("output") == "gate" and not parsed["proceed"]:
                 result.stopped_at_gate = True
@@ -179,8 +163,8 @@ class InvestorAgent:
             "been anonymized. Which real company do you think it is, how confident are you, "
             "and do you know what happened to it (and to its stock) after the as-of date?"
         )
-        resp = self._call([{"role": "user", "content": prompt}], LeakageProbe, 4000)
-        return resp.parsed_output.model_dump()
+        _, parsed = self._call(prompt, LeakageProbe, 4000)
+        return parsed.model_dump()
 
 
 def save_run(result: RunResult, out_dir: Path, meta: dict) -> None:

@@ -8,7 +8,7 @@ Shared code and templates for the Laurion investor-agent project (HBS Fall 2026 
 cd laurion-agents
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-export ANTHROPIC_API_KEY=...                        # or: ant auth login
+claude auth status                                  # model calls run through `claude -p` on your subscription; no API key
 export SEC_USER_AGENT="Your Name you@school.edu"    # SEC requires contact info
 ```
 
@@ -47,7 +47,7 @@ packets/example/       example information packet
 
 ## Notes
 
-- **Model.** The default is `claude-opus-5-5` at `effort: high`, set per investor in `config.yaml`. Server-side fallbacks are on: if a request is declined, the API retries on a fallback model. Set `server_side_fallbacks: false` to turn this off.
+- **Model.** The default is `claude-opus-5-5` at `effort: high`, set per investor in `config.yaml`. Every model call goes through headless Claude Code (`claude -p`, see `shared/claude_cli.py`) with tools disabled, `ANTHROPIC_API_KEY` stripped from its environment, and no model fallback. A call that comes back from a different model fails.
 - **Run metadata.** Every run saves `meta.json` with the model, effort, as-of date, anonymized flag, git commit and token usage. This makes results reproducible and supplies the cost figures for the retrospective.
 - **Retrieval.** Search is keyword-based (BM25) and has no dependencies. If recall is weak, swap in embeddings, but keep the `as_of` filter.
 - **EDGAR coverage.** XBRL facts only start around 2009. For older trades, use raw 10-K text (`python -m shared.edgar filings <ticker> <as_of>`) or Compustat Point-in-Time via WRDS. Tickers resolve to *current* companies only, so pass the CIK for delisted or renamed ones.

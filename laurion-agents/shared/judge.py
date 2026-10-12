@@ -15,15 +15,15 @@ import csv
 import json
 from pathlib import Path
 
-import anthropic
 import yaml
 
+from . import claude_cli
 from .schema import CalibrationScore
 
 SHARED = Path(__file__).parent
 
 
-def judge_run(client, rubric: str, truth: dict, run_dir: Path, model: str) -> dict:
+def judge_run(rubric: str, truth: dict, run_dir: Path, model: str) -> dict:
     decision = (run_dir / "decision.json").read_text() if (run_dir / "decision.json").exists() else "{}"
     memo = (run_dir / "memo.md").read_text() if (run_dir / "memo.md").exists() else ""
     prompt = (
@@ -31,17 +31,18 @@ def judge_run(client, rubric: str, truth: dict, run_dir: Path, model: str) -> di
         f"<agent_decision>\n{decision}\n</agent_decision>\n\n<agent_memo>\n{memo}\n</agent_memo>\n\n"
         "Score the agent's run against what the investor did, following the rubric."
     )
-    resp = client.messages.parse(
-        model=model,
-        max_tokens=8000,
-        system=rubric,
-        messages=[{"role": "user", "content": prompt}],
-        output_format=CalibrationScore,
-        output_config={"effort": "high"},
-    )
-    if resp.stop_reason == "refusal":
+    try:
+        out = claude_cli.call(
+            prompt,
+            system=rubric,
+            model=model,
+            effort="high",
+            schema=CalibrationScore.model_json_schema(),
+            max_tokens=8000,
+        )
+    except claude_cli.RefusalError:
         raise RuntimeError(f"Judge refused on {run_dir}")
-    return resp.parsed_output.model_dump()
+    return CalibrationScore.model_validate(out["structured_output"]).model_dump()
 
 
 def main() -> None:
@@ -51,7 +52,6 @@ def main() -> None:
     ap.add_argument("--rescore", action="store_true")
     args = ap.parse_args()
 
-    client = anthropic.Anthropic()
     rubric = (SHARED / "rubric.md").read_text()
     truth = yaml.safe_load((args.trade / "truth.yaml").read_text())
     rows = []
@@ -60,7 +60,7 @@ def main() -> None:
         if score_file.exists() and not args.rescore:
             score = json.loads(score_file.read_text())
         else:
-            score = judge_run(client, rubric, truth, run_dir, args.model)
+            score = judge_run(rubric, truth, run_dir, args.model)
             score_file.write_text(json.dumps(score, indent=2))
         meta = json.loads((run_dir / "meta.json").read_text())
         matched = sum(r["match"] == "matched" for r in score["reason_scores"])
