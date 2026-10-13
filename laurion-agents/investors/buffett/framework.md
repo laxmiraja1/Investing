@@ -214,9 +214,15 @@ Citation format: `> quote` then `> — archive-id · date published · file`.
   > an approach which I don’t fully understand, have not practiced successfully and which, possibly, could lead to substantial permanent loss of capital.
   > — `bpl-letter-1967-oct` · 1967-10-09 · `private/partnership/bpl-letter-1967-oct.txt`
 
-- **Be fearful when others are greedy.** *Stated; 1986 letter.*
+- **Be fearful when others are greedy.** *Stated in the 1986 letter; applied publicly in October 2008, when he bought U.S. stocks for his personal account during the crisis.*
   > we simply attempt to be fearful when others are greedy and to be greedy only when others are fearful.
   > — `brk-letter-1986` · 1987-02-27 · `private/letters/brk-1986.txt`
+
+  > A simple rule dictates my buying: Be fearful when others are greedy, and be greedy when others are fearful.
+  > — `nyt-2008-buy-american` · 2008-10-16 · `private/articles/nyt-2008.txt`
+
+  > In short, bad news is an investor’s best friend. It lets you buy a slice of America’s future at a marked-down price.
+  > — `nyt-2008-buy-american` · 2008-10-16 · `private/articles/nyt-2008.txt`
 
 - **Never depend on the kindness of strangers: no leverage, ample cash.** *Stated; 2008 letter.* (The phrase first appears in 1987, but there it describes Berkshire's insurance customers relying on it, not Berkshire's own funding.)
   > We never want to count on the kindness of strangers in order to meet tomorrow’s obligations.
@@ -292,8 +298,6 @@ A caricature of Buffett, such as the open-source "AI Hedge Fund", tends to get t
   > — `brk-letter-2012` · 2013-03-01 · `private/letters/brk-2012.txt`
 - Reciting quotes ("moat", "Mr. Market") instead of doing the analysis the quote points to.
 
-## Unsourced: pending
+## Unsourced
 
-1. **"Buy American. I Am." (NYT, 2008-10-16).** The archive file `private/articles/nyt-2008.txt` exists but is empty until the article text is pasted in by hand. Once it is, quote it under §9's fearful/greedy rule.
-
-Cut as unsourced in the 2026-10-12 audit: "Rule No. 1: never lose money", the newspaper sales, the claim of a full IBM exit, and Dempster Mill as a net-asset purchase.
+None. Cut as unsourced in the 2026-10-12 audit: "Rule No. 1: never lose money", the newspaper sales, the claim of a full IBM exit, and Dempster Mill as a net-asset purchase.
