@@ -48,6 +48,7 @@ packets/example/       example information packet
 ## Notes
 
 - **Model.** The default is `claude-opus-5-5` at `effort: high`, set per investor in `config.yaml`. Every model call goes through headless Claude Code (`claude -p`, see `shared/claude_cli.py`) with tools disabled, `ANTHROPIC_API_KEY` stripped from its environment, and no model fallback. A call that comes back from a different model fails.
+- **Point-in-time framework.** A run never sees the whole `framework.md`. `shared/framework.py` rebuilds it for the packet's `as_of`, keeping only quotes from documents published on or before that date and only rules that still have evidence. Italic notes, tables and other hindsight prose are dropped, so keep rule titles date-neutral. Every prompt then passes a leak guard, and a run stops with `LeakageError`, before anything is sent, if a later-dated citation or quote would reach the model. Tests: `python -m unittest discover -s tests`.
 - **Run metadata.** Every run saves `meta.json` with the model, effort, as-of date, anonymized flag, git commit and token usage. This makes results reproducible and supplies the cost figures for the retrospective.
 - **Retrieval.** Search is keyword-based (BM25) and has no dependencies. If recall is weak, swap in embeddings, but keep the `as_of` filter.
 - **EDGAR coverage.** XBRL facts only start around 2009. For older trades, use raw 10-K text (`python -m shared.edgar filings <ticker> <as_of>`) or Compustat Point-in-Time via WRDS. Tickers resolve to *current* companies only, so pass the CIK for delisted or renamed ones.

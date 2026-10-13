@@ -12,7 +12,7 @@ Citation format: `> quote` then `> — archive-id · date published · file`.
   > When I started, I went through the pages of the manuals page by page. I mean, I probably went through 20,000 pages in the Moody's industrial, transportation, banks and finance manuals.
   > — `agm-2001` · 2001-04-28 · `private/agm/agm-2001.txt`
 
-- **Partnership era: screen quantitatively for undervalued "generals", then check quality.** *Stated; 1957–1969.*
+- **Screen quantitatively for undervalued stocks, then check quality.** *Stated; 1957–1969.*
   > A category of generally undervalued stocks, determined primarily by quantitative standards, but with considerable attention also paid to the qualitative factor.
   > — `bpl-letter-1963` · 1964-01-18 · `private/partnership/bpl-letter-1963.txt`
 
@@ -44,7 +44,7 @@ Citation format: `> quote` then `> — archive-id · date published · file`.
   > But huge sums forge their own anchor and our future advantage, if any, will be a small fraction of our historical edge.
   > — `brk-letter-2009` · 2010-02-26 · `private/letters/brk-2009.txt`
 
-- **Technology is outside the circle, with two reasoned exceptions.** *Stated avoidance from 1982; IBM bought 2011; Apple from late 2016, treated as a consumer business.*
+- **Technology: stay out unless the business itself can be understood.** *Stated avoidance from 1982; IBM bought 2011; Apple from late 2016, treated as a consumer business.*
   > In this mea culpa, I am not talking about missing out on some company that depends upon an esoteric invention (such as Xerox), high-technology (Apple), or even brilliant merchandising (Wal-Mart). We will never develop the competence to spot such businesses early.
   > — `brk-letter-1991` · 1992-02-28 · `private/letters/brk-1991.txt`
 
@@ -135,7 +135,7 @@ Citation format: `> quote` then `> — archive-id · date published · file`.
   > It's far better to buy a wonderful company at a fair price than a fair company at a wonderful price. Charlie understood this early; I was a slow learner.
   > — `brk-letter-1989` · 1990-03-02 · `private/letters/brk-1989.txt`
 
-- **Graham-era methods: cigar butts and net working capital.** *Revealed in the partnership years; named and disowned in 1989.*
+- **Bargains: buy below net working capital.** *Revealed in the partnership years; named and disowned in 1989.*
   > the company on December 31, 1965, had net working capital alone (before placing any value on the plants and equipment) of about $19 per share.
   > — `bpl-letter-1965` · 1966-01-20 · `private/partnership/bpl-letter-1965.txt`
 
@@ -151,23 +151,24 @@ Citation format: `> quote` then `> — archive-id · date published · file`.
 
 ## 6. Catalyst / timing
 
-- **Berkshire era: no catalyst needed; the market eventually reflects business results.** *Stated; 1987 letter.*
+- **No catalyst needed: the market eventually reflects business results.** *Stated; 1987 letter.*
   > The market may ignore business success for a while, but eventually will confirm it.
   > — `brk-letter-1987` · 1988-02-29 · `private/letters/brk-1987.txt`
 
   > Mr. Market is there to serve you, not to guide you.
   > — `brk-letter-1987` · 1988-02-29 · `private/letters/brk-1987.txt`
 
-- **Partnership era: work-outs had explicit catalysts; controls were activist.** *Stated; 1957 and 1963 letters.*
+- **Work-outs: profit from a specific corporate action.** *Stated; 1957 letter.*
   > A work-out is an investment which is dependent on a specific corporate action for its profit rather than a general advance in the price of the stock as in the case of undervalued situations. Work-outs come about through: sales, mergers, liquidations, tenders, etc.
   > — `bpl-letter-1957` · 1958-02-28 (letter undated; estimated) · `private/partnership/bpl-letter-1957.txt`
 
+- **Controls: buy enough of a neglected cheap stock to influence the company.** *Stated; 1963 letter.*
   > They result from situations where a cheap security does nothing price-wise for such an extended period of time that we are able to buy a significant percentage of the company's stock.
   > — `bpl-letter-1963` · 1964-01-18 · `private/partnership/bpl-letter-1963.txt`
 
 ## 7. Position sizing & portfolio construction
 
-- **Concentrate; diversification is protection against ignorance.** *Stated; Ground Rule 7 added November 1965 (quoted in the January 1966 letter); the "ignorance" line is from the 1996 annual meeting.*
+- **Concentrate when the facts are clear.** *Stated; Ground Rule 7 added November 1965 (quoted in the January 1966 letter); the "ignorance" line is from the 1996 annual meeting.*
   > We might invest up to 40% of our net worth in a single security under conditions coupling an extremely high probability that our facts and reasoning are correct with a very low probability that anything could drastically change the underlying value of the investment.
   > — `bpl-letter-1965` · 1966-01-20 · `private/partnership/bpl-letter-1965.txt`
 
@@ -228,7 +229,7 @@ Citation format: `> quote` then `> — archive-id · date published · file`.
   > We never want to count on the kindness of strangers in order to meet tomorrow’s obligations.
   > — `brk-letter-2008` · 2009-02-27 · `private/letters/brk-2008.txt`
 
-- **No market forecasting. His market-level pieces judge valuation, not timing.** *Stated: Ground Rule 6 in the partnership, 1992 letter, and the 1977 and 1999 Fortune pieces. This reconciles the old lead's contradiction: in 1999 he says up front he is talking about the level of the market, not its next move.*
+- **No market forecasting: judge valuation, not timing.** *Stated: Ground Rule 6 in the partnership, 1992 letter, and the 1977 and 1999 Fortune pieces. This reconciles the old lead's contradiction: in 1999 he says up front he is talking about the level of the market, not its next move.*
   > I am not in the business of predicting general stock market or business fluctuations.
   > — `bpl-letter-1966-mid` · 1966-07-12 · `private/partnership/bpl-letter-1966-mid.txt`
 
