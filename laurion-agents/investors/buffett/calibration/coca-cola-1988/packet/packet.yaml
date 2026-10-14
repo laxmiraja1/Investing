@@ -1,0 +1,47 @@
+# Coca-Cola calibration packet. Built by ../build_packet.py; edit that, not this.
+ticker: KO
+company: The Coca-Cola Company
+as_of: 1989-02-27   # day before the 1988 letter (1989-02-28) disclosed Berkshire's position
+question: "Should we buy The Coca-Cola Company at today's price, and how much?"
+
+documents:
+  - {id: ar-1986, type: annual-report, date_published: 1987-02-19, path: ar-1986.txt}
+  - {id: ar-1987, type: annual-report, date_published: 1988-02-18, path: ar-1987.txt}
+  - {id: upi-1988-07-14, type: news, date_published: 1988-07-14, path: upi-1988-07-14.txt}
+  - {id: upi-1989-01-31, type: news, date_published: 1989-01-31, path: upi-1989-01-31.txt}
+  # Signed 1989-02-18, probably not mailed before as_of (see the note at the top of the text).
+  - {id: ar-1988, type: annual-report, date_published: 1989-02-18, path: ar-1988.txt}
+  - {id: fin-summary, type: financials, date_published: 1989-02-18, path: financials.md}
+  - {id: prices, type: prices, date_published: 1989-02-24, path: prices.md}
+
+aliases:
+  "The Coca-Cola Company": "Company A"
+  "Coca-Cola Enterprises": "Company A's bottling affiliate"
+  "Coca-Cola": "Brand A"
+  "Coke": "Brand A"
+  "KO": "AAA"
+  "Roberto C. Goizueta": "the Chairman and CEO"
+  "Goizueta": "the Chairman and CEO"
+  "Donald R. Keough": "the President"
+  "Keough": "the President"
+  "M. Douglas Ivester": "an executive"
+  "Ivester": "an executive"
+  "Peter V. Ueberroth": "a director"
+  "Ueberroth": "a director"
+  "Atlanta": "the headquarters city"
+  "Georgia": "the home state"
+  "Robert W. Woodruff": "the former chairman"
+  "Woodruff": "the former chairman"
+  "Columbia Pictures Entertainment": "the entertainment affiliate"
+  "Columbia Pictures": "the film studio"
+  "Tri-Star": "the second film studio"
+  "Columbia": "the film studio"
+  "T.C.C. Beverages": "the Canadian bottling affiliate"
+  "Minute Maid": "Juice Brand M"
+  "Hi-C": "Juice Brand H"
+  "Five Alive": "Juice Brand F"
+  "Sprite": "Brand S"
+  "Fanta": "Brand F"
+  "Fresca": "Brand R"
+  "Mello Yello": "Brand Y"
+  "TAB": "Brand T"

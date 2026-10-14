@@ -1,0 +1,13 @@
+{
+  "proceed": true,
+  "filters_checked": [
+    "Turnarounds seldom turn (brk-letter-1979; criterion 2 in brk-letter-1982/1986#10): earnings rose every year 1977-1988 and ROE was 33% in 1988. Not a turnaround; the weak Foods unit is under 6% of operating income.",
+    "Avoid businesses that need debt / good ROE with little or no debt (brk-letter-1982): total debt to capital 38.8% at end-1988, but $1.23B of cash and securities leave net debt (~$0.9B) below one year's net income, and the concentrate business needs little capital. The debt is optional and funds buybacks. Passes; leverage policy flagged for Stage 4.",
+    "Simple business / circle of competence (criterion 5, brk-letter-1986#10): >90% of operating income comes from selling branded concentrate to bottlers; no technology; entertainment moved to a 49% affiliate; 10-year drivers (low international per-capita consumption, rising share, low capital needs) are clear from the packet. Passes.",
+    "Size: at least $10M after-tax earnings (brk-letter-1986#10): net income $1.04B, market value ~$16.5B, liquid NYSE stock. A position of a few percent is material against Berkshire's capital (~$2.4B net worth end-1986, permanent holdings ~$2.1B end-1987; as-of-date capital not in packet, assumed somewhat higher). Passes.",
+    "Demonstrated consistent earning power (criterion 2): 12 straight years of higher continuing-operations income; ROE 19-33%. Passes.",
+    "Management in place (criterion 4): CEO/president team in place since 1981, focused on per-share value and buybacks. Passes; buyback-price discipline and candor deferred to Stage 4.",
+    "Excluded industries/situations: not a commodity business (cf. textiles, brk-letter-1985#9), not rate-regulated, not distressed, no hostile action involved. Heavy foreign exposure (~76% of operating income) noted for valuation, not a gate."
+  ],
+  "reason": "No hard filter rules Company A out. It is a simple, understandable franchise selling concentrate under the world's best-known trademark, with consistent and rising earnings (ROE 33% in 1988). It is not a turnaround and is easily large enough to matter for Berkshire. Gross debt is meaningful (38.8% of capital), but cash offsets most of it, net debt is under one year's earnings, and the business needs little capital, so the 'little or no debt' test is met in substance. Management's stated preference for leverage and its buyback discipline are left for later stages. Proceed to business analysis and valuation."
+}

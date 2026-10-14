@@ -1,0 +1,35 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "matched",
+      "agent_reason_matched": "Memo says 'we intend to hold it indefinitely'. The sell triggers set the default as a permanent hold: a great business with good managers is not sold because the price has risen."
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "Calls it a 'major commitment of roughly a quarter of the equity portfolio', cites 'concentrate when the facts are clear', and describes the business as simple and easy to understand."
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "partial",
+      "agent_reason_matched": "Cites the 'most widely recognized trademark in the world', world share rising from 38% to 45%, low international consumption per person, and supply shortages in China and Indonesia. The agent frames this as share data and moat statistics. It does not frame it as the product's lasting consumer attractiveness, observed over a long time."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "matched",
+      "agent_reason_matched": "Goizueta and Keough have run the company since 1981, 'concentrated the company on its core business and reorganized a fragmented U.S. bottling system'. The agent also points to international growth and the market share gains."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "matched",
+      "agent_reason_matched": "Cites buybacks below intrinsic value, the payout cut to fund high-return reinvestment, and about $4.70 of market value created per $1 retained."
+    }
+  ],
+  "spurious_reasons": [],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 4,
+  "notes": "The agent reached the same concentrated BUY-and-hold-forever decision. Its 25% size is close to Buffett's roughly 17\u201321%, and it matched nearly all of his documented reasons: the outstanding franchise, refocusing under Goizueta and Keough, and shareholder-minded capital allocation. The main gap is emphasis. The agent rests the case on ROE, owner earnings and a DCF built on an assumed 9% discount rate, with a margin of safety based on that DCF. Buffett instead pointed to the product's long-observed consumer appeal and spread around the world, and he never claimed a deep discount. This probably reflects a quantitative framework and a packet built on annual-report data, with no qualitative judgment from decades of observation. There is no clear leakage; the 1988 annual report and early-1989 news items appear to come from the supplied packet."
+}

@@ -1,0 +1,35 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "matched",
+      "agent_reason_matched": "Recommends a permanent holding; sell only if the franchise weakens or management turns against shareholders, and a higher price alone is not a sell trigger (brk-letter-1987#18)."
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "'The facts are clear... justifies a concentrated position': a simple concentrate business with a ten-year record, sized at 25%."
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "partial",
+      "agent_reason_matched": "Wide moat from the trademark and global distribution: world share rising to about 45%, brand 'off the charts' in surveys, 160+ countries, 51 vs 274 servings per capita. Captures the appeal and reach but not the long personal observation behind his conviction."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "matched",
+      "agent_reason_matched": "Same team since 1981, undid the entertainment diversification, exited plastics, coffee and South Africa, refocused on beverages; international runway and share gains (though it treats overseas growth partly as a currency risk)."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "matched",
+      "agent_reason_matched": "Retained earnings created about $4.50 of market value per $1; buybacks at moderate multiples, slowed when the price was high; 12% cost-of-capital hurdle; rising margins alongside higher advertising."
+    }
+  ],
+  "spurious_reasons": [],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 4,
+  "notes": "The agent matches the BUY, the concentrated size (25% vs about 17\u201321%) and nearly all of the investor's reasons, framed in Buffett's own terms: a franchise he can understand, shareholder-minded management, and a holding period of forever. The main gap is emphasis. The agent leans on a precise DCF that shows a 42% margin of safety, while the investor never claimed a deep discount and stressed the product's appeal, which he had watched for decades, and the overseas momentum under Goizueta and Keough. The agent treats that overseas momentum partly as a currency risk. That difference probably comes from the packet having lots of financial data and nothing about the investor's long personal familiarity with the product. All cited sources, including the January 1989 UPI guidance, predate the as-of date. The company stays anonymized as 'Company A', so no leakage."
+}

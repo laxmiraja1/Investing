@@ -1,0 +1,35 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "matched",
+      "agent_reason_matched": "Expects to hold indefinitely; 'Default is to hold permanently (brk-letter-1987#18); a higher price alone is not a trigger'; treats it as an outstanding business at a sensible price."
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "'Concentrate heavily' at ~25% of the portfolio; simplicity screen ('no technology to understand')."
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, observed for decades.",
+      "match": "matched",
+      "agent_reason_matched": "Durable, widening moat from trademark and distribution: world share rose from 38% to 45%, the franchise survived the 1985 formula change, and international per-capita consumption (51 servings vs 274 in the US) leaves room to grow."
+    },
+    {
+      "investor_reason": "Management (from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "partial",
+      "agent_reason_matched": "Cites the share gains and the 1981-88 record, and notes the entertainment detour being unwound. But it does not credit the post-1981 management for refocusing the company, and it lists reservations about management instead of the strong endorsement the investor gave."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "partial",
+      "agent_reason_matched": "Retained-earnings test ($2.60-5.20 of market value per $1 retained) and buybacks below value capture the financial side. The marketing skill and praise for the CEO are absent, and buyback financing is partly flagged as a concern."
+    }
+  ],
+  "spurious_reasons": [],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 4,
+  "notes": "The agent matches the decision (BUY) and the concentrated size (25% vs about 17-21%). It captures the core franchise thesis: brand moat, worldwide reach, international runway and holding indefinitely. The biggest gap is management. The investor's reasoning rested heavily on admiration for the post-1981 leadership, who refocused the company and had a rare mix of marketing and financial skill. The agent instead treats management with hedged reservations (options, debt-funded buybacks, promotional reports) and leans on a quantitative DCF and owner-earnings margin of safety, likely because the packet lacks the investor's personal, decades-long familiarity with the product and its managers. No leakage is evident, and the company is not named, although the 1985 formula-change detail makes it easy to identify."
+}

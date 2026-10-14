@@ -1,0 +1,298 @@
+{
+  "investor": "Warren Buffett",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "packet": "investors/buffett/calibration/coca-cola-1988/packet-upi-only",
+  "as_of": "1989-02-27",
+  "anonymized": true,
+  "label": "upi-only",
+  "agent_commit": "16b6f12",
+  "framework": {
+    "cutoff": "1989-02-27",
+    "quotes_shown": 22,
+    "quotes_withheld": 48
+  },
+  "usage": [
+    {
+      "stage": "gatekeeper",
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 133455,
+      "output_tokens": 2673,
+      "output_tokens_details": {
+        "thinking_tokens": 415
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2673,
+          "cache_read_input_tokens": 133455,
+          "cache_creation_input_tokens": 0,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 0
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null,
+      "models": [
+        "claude-opus-5-5"
+      ],
+      "cost_usd": 0.080159,
+      "session_total_cost_usd": 0.08015900000000001,
+      "duration_ms": 25912,
+      "session_id": "5db66068-50ac-46c7-9f2c-00c72684b972"
+    },
+    {
+      "stage": "business",
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 132516,
+      "cache_read_input_tokens": 2684,
+      "output_tokens": 11132,
+      "output_tokens_details": {
+        "thinking_tokens": 5434
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 132516,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 11132,
+          "cache_read_input_tokens": 2684,
+          "cache_creation_input_tokens": 132516,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 132516
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null,
+      "models": [
+        "claude-opus-5-5"
+      ],
+      "cost_usd": 1.283313,
+      "session_total_cost_usd": 1.3634718000000001,
+      "duration_ms": 112880,
+      "session_id": "5db66068-50ac-46c7-9f2c-00c72684b972"
+    },
+    {
+      "stage": "management",
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 11255,
+      "cache_read_input_tokens": 135200,
+      "output_tokens": 10997,
+      "output_tokens_details": {
+        "thinking_tokens": 5761
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 11255,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 10997,
+          "cache_read_input_tokens": 135200,
+          "cache_creation_input_tokens": 11255,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 11255
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null,
+      "models": [
+        "claude-opus-5-5"
+      ],
+      "cost_usd": 0.337028,
+      "session_total_cost_usd": 1.7004998000000002,
+      "duration_ms": 109928,
+      "session_id": "5db66068-50ac-46c7-9f2c-00c72684b972"
+    },
+    {
+      "stage": "valuation",
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 11136,
+      "cache_read_input_tokens": 146455,
+      "output_tokens": 9105,
+      "output_tokens_details": {
+        "thinking_tokens": 4942
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 11136,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 9105,
+          "cache_read_input_tokens": 146455,
+          "cache_creation_input_tokens": 11136,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 11136
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null,
+      "models": [
+        "claude-opus-5-5"
+      ],
+      "cost_usd": 0.300487,
+      "session_total_cost_usd": 2.0009868,
+      "duration_ms": 93273,
+      "session_id": "5db66068-50ac-46c7-9f2c-00c72684b972"
+    },
+    {
+      "stage": "decision",
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 148049,
+      "cache_read_input_tokens": 3896,
+      "output_tokens": 5270,
+      "output_tokens_details": {
+        "thinking_tokens": 421
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 148049,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 5270,
+          "cache_read_input_tokens": 3896,
+          "cache_creation_input_tokens": 148049,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 148049
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null,
+      "models": [
+        "claude-opus-5-5"
+      ],
+      "cost_usd": 1.290579,
+      "session_total_cost_usd": 3.291566,
+      "duration_ms": 49143,
+      "session_id": "5db66068-50ac-46c7-9f2c-00c72684b972"
+    },
+    {
+      "stage": "memo",
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 14251,
+      "cache_read_input_tokens": 157591,
+      "output_tokens": 1754,
+      "output_tokens_details": {
+        "thinking_tokens": 83
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 14251,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 1754,
+          "cache_read_input_tokens": 157591,
+          "cache_creation_input_tokens": 14251,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 14251
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null,
+      "models": [
+        "claude-opus-5-5"
+      ],
+      "cost_usd": 0.180614,
+      "session_total_cost_usd": 3.4721802,
+      "duration_ms": 19410,
+      "session_id": "5db66068-50ac-46c7-9f2c-00c72684b972"
+    }
+  ],
+  "retrieved": [
+    "brk-letter-1986#16",
+    "brk-letter-1986#22",
+    "brk-letter-1985#9",
+    "brk-letter-1983#0",
+    "brk-letter-1982#17",
+    "brk-letter-1985#2",
+    "fortune-1977-inflation#6",
+    "brk-letter-1979#2",
+    "brk-letter-1987#1",
+    "brk-letter-1983#2",
+    "brk-letter-1984#31",
+    "brk-letter-1981#3",
+    "bpl-letter-1968-mid#2",
+    "brk-letter-1984#7",
+    "brk-letter-1986#10",
+    "bpl-letter-1961#3",
+    "bpl-letter-1962#4",
+    "bpl-letter-1963#5",
+    "brk-letter-1986#0",
+    "bpl-letter-1961#7",
+    "bpl-letter-1963#7",
+    "brk-letter-1979#11",
+    "brk-letter-1985#6",
+    "brk-letter-1987#13",
+    "brk-letter-1987#3",
+    "brk-letter-1987#18",
+    "brk-letter-1984#4"
+  ]
+}

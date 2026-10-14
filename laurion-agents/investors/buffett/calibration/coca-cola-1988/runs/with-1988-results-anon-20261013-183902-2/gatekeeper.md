@@ -1,0 +1,13 @@
+{
+  "proceed": true,
+  "filters_checked": [
+    "Turnarounds seldom turn (brk-letter-1979; acquisition criteria brk-letter-1986#10)",
+    "Avoid businesses that need debt / good ROE with little or no debt (brk-letter-1982; 'without undue leverage' brk-letter-1979)",
+    "Circle of competence / simple business, no heavy technology (brk-letter-1982, brk-letter-1986#10)",
+    "Demonstrated consistent earning power, not projections (brk-letter-1982)",
+    "Management in place (brk-letter-1982)",
+    "Size: large enough to matter, $10M+ after-tax earnings threshold and 'elephant' hunting (brk-letter-1986#10, brk-letter-1987)",
+    "Excluded industries / balance-sheet or accounting red flags (commodity economics per brk-letter-1985#9; regulated franchises per brk-letter-1986#22)"
+  ],
+  "reason": "I recognize Company A as Coca-Cola; reasoning is from the packet only. No hard filter rules it out. (1) Not a turnaround: EPS rose every year from $0.84 (1977) to $2.85 (1988) and ROE went from about 20% to 33.3%. The weak spots (foods restructuring, entertainment now a 49% affiliate) sit beside a core that earns more than 90% of operating income. (2) Debt: reported debt is 38.8% of total capital and management raised its net-debt ceiling to 35% to fund buybacks, so part of the 33% ROE is leverage. That is a flag for later stages, not a disqualifier. The business does not need debt: management calls soft drinks 'low capital requirement', operating cash flow was about $1.17B against $387M of capex, net debt is about 24% of capital ($2.12B debt less $1.23B cash), and $231M of interest expense is nearly offset by $199M of interest income against $1.6B operating income. (3) Simple and within competence: the core sells syrup and concentrate under a dominant trademark, with close to 45% of world soft drink volume and about 63% gross margin on US concentrate. Low per-person consumption outside the US makes the ten-year economics readable, like the See's/GEICO franchises. (4) Consistent earning power: 1988 net income $1.04B. (5) Management in place since 1981, with rising returns, sizable buybacks and the entertainment business pulled back to 49%. (6) Size: market value $16.5B on the NYSE. The packet does not give Berkshire's 1988 net worth (the 1986 letter implies about $2.4B at end-1986, so I assume $3-4B now), so a stake of a few percent ($500M-$1B) would be large enough to matter, with look-through earnings far above the $10M threshold. (7) Not a commodity or regulated business, the audit opinion is unqualified, and guarantees of others' debt fell to about $133M. Price (16.3x 1988 EPS at $46.56) is left to the valuation stage."
+}

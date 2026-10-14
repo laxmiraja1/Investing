@@ -1,0 +1,37 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "partial",
+      "agent_reason_matched": "The agent calls the business outstanding and plans to 'hold it permanently.' But it rates management only as 'mixed but improving,' not outstanding."
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "A large, concentrated position (25%) is justified because the facts are clear and the business is simple. This draws on the 1965 concentration principle."
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "partial",
+      "agent_reason_matched": "The agent describes a wide and widening moat: about 44% worldwide share, sales in 155 countries, low per-capita consumption abroad, and the Classic brand surviving the reformulation. This is a statistical view of share, not the consumer appeal Buffett had watched for decades."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "partial",
+      "agent_reason_matched": "The agent notes the move back to the core business after entertainment and the CPE spin-off, and sees international growth room. It treats recent international growth partly as a currency effect and a risk, not as momentum to credit to management."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "partial",
+      "agent_reason_matched": "The agent credits the retained-earnings test ($2.80 of market value per $1 retained) and accretive buybacks. It also criticizes management for not tying buybacks to value and for the diversification mistake, so it gives no praise of a rare CEO skill."
+    }
+  ],
+  "spurious_reasons": [
+    "Calls the current price 'be fearful when others are greedy' and a Mr. Market opportunity, though the agent admits the multiple is normal (minor)"
+  ],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 3,
+  "notes": "The decision (BUY) and the size (25% vs. about 17\u201321%) closely match, and the agent captures the core idea: an understandable, durable consumer franchise held permanently in a concentrated position. The biggest gap is management. Buffett saw Goizueta and Keough as outstanding operators whose refocusing set off international growth. The agent sees them as 'mixed but improving,' doubts their buyback discipline, and discounts recent international growth as partly currency. That likely reflects a framework-driven, numbers-first reading of the annual reports without Buffett's personal knowledge of Keough and his decades of watching the product. There is no sign of leakage. The company is named, but this run does not appear to be anonymized."
+}

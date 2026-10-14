@@ -1,0 +1,27 @@
+**Memo: Purchase of The Coca-Cola Company, February 27, 1989**
+
+We recommend buying Coca-Cola common stock, building over time to about a quarter of the portfolio and paying no more than about $54 a share. The stock last closed at $46.56. We intend to hold it permanently unless the business or its management proves different from what the record shows.
+
+The business is simple. Coca-Cola makes soft-drink syrup and concentrate and sells it to bottlers, which bottle, distribute and sell to retailers in more than 155 countries. Soft drinks produced over 95% of operating income in 1987. The company's share was over 40% of U.S. carbonated soft drinks in 1988 and over 44% worldwide, with volume double that of its nearest competitor. U.S. concentrate earns about a 63% gross margin. Bottling is the part of the system that needs a lot of capital, and it has largely been moved into companies Coca-Cola owns 49% of, such as Coca-Cola Enterprises. Two smaller pieces are a juice business and a 49% stake in Columbia Pictures Entertainment. We give neither a franchise value.
+
+The company passes the tests we apply to any business. Earnings per share rose every year from 1977 to 1988, from $0.84 to $2.85. Return on equity ran 20–21% from 1976 to 1981, when debt was under 10% of capital. It reached 27–29% in 1986–87 and a reported 33% in 1988. Part of the recent rise is financial: management has borrowed to buy back stock, shrinking equity, and a weak dollar has flattered foreign results. With leverage stripped out, the business still earns roughly 25% on the capital it uses. The international soft-drink operation earns about 50% pretax on its assets.
+
+The business also needs little reinvestment, which is what makes it valuable. From 1984 through 1987 the company paid out more than it earned through dividends, buybacks and the distribution of Columbia shares. Even so, net income grew from $629 million to $916 million. Shareholders' equity has stayed around $3 billion since 1983 while earnings nearly doubled.
+
+The competitive position is strong and getting stronger. Market share rose in each year the reports cover. The brand also survived management's own 1985 reformulation: the original formula, brought back as Coca-Cola classic, became the best-selling U.S. soft drink within a year. Outside the United States, people drink about a sixth as many soft drinks per person as Americans do, so there is plenty of room to grow. Defending this position is not free. Selling and advertising cost over $2 billion a year, and those costs are already deducted from the earnings we value.
+
+Management, led by Roberto Goizueta and Donald Keough since 1981, has a mixed but improving record on capital. Since they took over, each dollar of earnings kept in the business has been followed by several dollars of market value. That holds even after setting aside the higher multiple the market now pays for the stock.
+
+Their main mistake was diversifying into film and television between 1982 and 1986. Shares of a business earning over 25% were exchanged for businesses earning less than the company's own 12% cost of capital. They have since spun off most of the entertainment business to shareholders, said they prefer to invest within existing lines of business, and repurchased about 69 million shares since 1984. That more than reverses the earlier dilution. Our remaining concern is that the buybacks are justified as a use of spare cash, not as purchases made below the stock's value. Their reports are generally forthright about one-time items and disappointments, though wrapped in more promotion than we like. We have not met management, and that would be our next step.
+
+On value, we estimate 1988 owner earnings, meaning the cash the business could pay out while keeping its competitive position, at about $2.24–2.71 a share. We use a midpoint of $2.47, which excludes income from the affiliated companies. We value those stakes separately at about $5 a share.
+
+Our test is whether the price makes sense if the next decade resembles the last. Suppose per-share earnings grow 12% a year, below the 16% of the past five years, and the stock sells at the end of ten years for 15 times owner earnings, a lower multiple than today's. The purchase would then return about 12–13% a year with dividends. At today's multiple it would return about 15%. If growth slows to 10%, the return is still about 10%. Discounting at management's own 12% cost of capital puts value at $54–67 a share, so today's price is 15–30% below our central estimates. That is not a deep statistical bargain, and the stock fails any test based on assets on the balance sheet. The protection comes mainly from how dependable the franchise is, not from cheapness.
+
+Several things would change our view. We would reconsider if:
+- the 1988 annual report shows that keeping the business competitive takes much more capital spending than we assumed;
+- growth turns out to have been mostly currency gains rather than more drinks sold at higher prices;
+- management issues shares or makes another large acquisition outside soft drinks, or borrows past its own 35% ceiling;
+- soft-drink market share or returns fall for several years in a row.
+
+Any of these would mean we misjudged the business or the people running it, and we would sell. A higher stock price alone would only stop us from buying more.

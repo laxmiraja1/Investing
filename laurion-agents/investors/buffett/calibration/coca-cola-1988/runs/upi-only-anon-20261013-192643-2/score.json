@@ -1,0 +1,35 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "matched",
+      "agent_reason_matched": "Calls it an outstanding business at a sensible price with able management in place. The sell triggers say the default for this kind of business with these managers is to hold permanently, and that a higher price alone is not a reason to sell."
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "Proposes a large position of about 25%, citing 'concentrate when the facts are clear' and 'hunt elephants'. Says the facts and the franchise's durability are very likely right."
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "matched",
+      "agent_reason_matched": "Points to the world's best-known trademark, sales in more than 155 countries and over 44% of world volume. Uses the reversal of the 1985 formula change as evidence of consumer attachment, and notes the international per-capita runway. The investor's personal decades of observation is naturally absent."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "matched",
+      "agent_reason_matched": "Notes the team assembled in 1981 corrected course by selling side businesses and narrowing to the core. Highlights international strength: about 52% pretax return on assets, about 74% of operating income from abroad, and Latin America pricing power. It treats some of the international growth as currency-flattered rather than calling it an acceleration."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "partial",
+      "agent_reason_matched": "Covers the shareholder-return side through the retained-earnings test (each $1 kept created more than $1 of value), large buybacks well below value and rising return on equity. It does not credit a specific CEO's blend of marketing and financial skill, and it calls the reports more promotional than it would like."
+    }
+  ],
+  "spurious_reasons": [],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 4,
+  "notes": "The agent made the same decision as the investor (BUY) and proposed a similar concentrated size (25% against about 17-21%). Its main thesis matches the investor's: a durable, understandable global consumer franchise, refocused by capable shareholder-minded management, bought at a fair price rather than a deep discount, and held indefinitely. The biggest gap is emphasis. The agent builds its case on quantitative tests (return on equity, owner-earnings valuation, the $1-retained test). The investor stressed qualitative judgments: decades of watching the product's appeal and confidence in the CEO's rare blend of marketing and financial skill. Those judgments came from personal observation and contact with management, which the packet could not supply. I found no leakage: the company is never named, and every figure cited (including 1988 earnings per share from the January 1989 news report) was public before the as-of date."
+}

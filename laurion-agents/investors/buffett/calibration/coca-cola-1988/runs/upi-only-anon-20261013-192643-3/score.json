@@ -1,0 +1,35 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "partial",
+      "agent_reason_matched": "Says price alone is not a sell trigger and the business should be held 'as long as the economics and the people stay as they are', treating it as a permanent holding. It rates management only 'acceptable but not spotless', not outstanding."
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "Recommends a concentrated 25% position because the chance of a drastic change in value is low. Notes that the product has barely changed in a century, so its economics can be judged ten years out."
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "matched",
+      "agent_reason_matched": "Cites ~44% of world soft-drink volume, double the nearest competitor, sales in 155+ countries, survival of the 1985 formula change, and international per-capita consumption at about one-sixth of the US level, leaving a large runway."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "partial",
+      "agent_reason_matched": "Notes the 1987 move of entertainment into an affiliate, the focus on concentrate, and Latin American margin expansion. It does not credit management with a refocusing and execution turnaround, and it stresses the entertainment acquisitions as blemishes."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "partial",
+      "agent_reason_matched": "Shows ~$1.90 of market value created per $1 retained and buybacks timed when the stock was cheap, which is evidence that growth reached shareholders. It does not present this as a CEO strength and treats leverage and cost-of-capital reasoning as weaknesses."
+    }
+  ],
+  "spurious_reasons": [],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 3,
+  "notes": "The decision (BUY) and the concentrated size (25% vs ~17-21%) both match, and the franchise and hold-forever reasoning is well matched. The biggest gap is management. Buffett's main thesis centred on Goizueta and Keough refocusing the company and turning growth into shareholder returns. The agent rates management only 'acceptable but not spotless', dwells on the 1982/1985 diversification and the higher leverage target, and sizes down partly because it has not met management. The likely cause is missing judgment: the agent could not assess management in person or put the recent turnaround ahead of older capital-allocation history. There is also no sign of Buffett's decades of personal observation of the product. No leakage: the company stays anonymized as Company A, and all data cited is from before the as-of date."
+}

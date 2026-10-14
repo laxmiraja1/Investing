@@ -1,0 +1,35 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "matched",
+      "agent_reason_matched": "Calls it an outstanding business at a sensible price, says a high price alone is not a sell trigger, treats it as a permanent holding, and closes with 'We intend to own this business for a very long time.'"
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "Says the economics are simple and depend on a few things that can be followed, and proposes a concentrated position of about 25%, sized under the 40% cap only because the facts are not yet fully clear."
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "partial",
+      "agent_reason_matched": "Covers worldwide reach quantitatively: 160+ countries, worldwide share rising from 38% to 45%, a trademark moat, and per-capita consumption abroad of 51 vs. 274 in the US. It does not stress the product's consumer attractiveness itself, or long personal observation of it, as the core insight."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "matched",
+      "agent_reason_matched": "Notes management in place since 1981, the unwinding of entertainment and the coffee sale (a refocus on soft drinks), share gains abroad, and roughly 76% of operating income now coming from international markets."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "matched",
+      "agent_reason_matched": "Cites heavy buybacks, about $5 of market value per $1 retained, rising gross margins with heavy advertising, and the view that management has been sensible with shareholders' money."
+    }
+  ],
+  "spurious_reasons": [],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 4,
+  "notes": "The agent matched the BUY decision and a concentrated size (25% vs. about 17\u201321%). Its reasoning centers on an outstanding, understandable franchise with shareholder-minded post-1981 management, bought to hold indefinitely, which is the investor's main reason. The biggest gap is emphasis: the agent works from numbers (ROE, owner earnings, a DCF margin of safety, currency risk) and gives little weight to the product's consumer appeal, observed over decades, which Buffett stressed. That is probably because the packet is built from financials and the agent cannot draw on long personal observation. It does not name the company, though bottler references such as 'CCE' make the identity easy to infer. I found no later facts."
+}

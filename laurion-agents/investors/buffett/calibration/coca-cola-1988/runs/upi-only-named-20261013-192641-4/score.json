@@ -1,0 +1,35 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "matched",
+      "agent_reason_matched": "Outstanding business at a sensible price; 'We intend to hold the shares indefinitely'; the default for a great business with able managers is to hold it permanently, and a high price alone is not a sell trigger."
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "A concentrated position (25%, up to 40%) is justified because the facts are clear and drastic change is unlikely; the memo stresses that the core business is simple and understandable."
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "matched",
+      "agent_reason_matched": "Moat reason: brand and distribution in 155+ countries, 44% worldwide share, Classic's quick recovery from New Coke, a century-old franchise. The memo does not include the investor's own decades of watching the product."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "matched",
+      "agent_reason_matched": "Since the current team took over in 1981, it has spun off entertainment and refocused on the core (soft drinks >95% of operating income); international business is 74% of operating income at about 52% returns, with long growth runway."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "partial",
+      "agent_reason_matched": "$1-retained test (about $5.50 of market value per $1 retained since 1981) and buybacks at 11\u201315x earnings cover the financial and shareholder-return side. The agent gives management credit only 'with some reservations' and does not note the combination with marketing skill."
+    }
+  ],
+  "spurious_reasons": [],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 4,
+  "notes": "The agent got the action (BUY), the concentrated size (25% against about 17\u201321%) and the hold-forever intent right. It also captured the franchise, the post-1981 management refocus and the international runway. The biggest gap is emphasis. The agent rests much of its case on a quantitative DCF margin of safety (about 42%) and hedges on management. The investor's case was qualitative: he had watched the product for decades and had high conviction in Goizueta and Keough, whom he knew personally. He did not claim a deep discount. This likely reflects judgment the agent could not reproduce (no in-person assessment of management) rather than missing data. All cited data were public before the as-of date, so no leakage is suspected."
+}

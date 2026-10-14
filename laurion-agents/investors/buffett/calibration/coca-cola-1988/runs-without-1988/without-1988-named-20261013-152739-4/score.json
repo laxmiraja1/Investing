@@ -1,0 +1,35 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "matched",
+      "agent_reason_matched": "Sell triggers say the default holding period for a great business with great managers is permanent; the memo says 'We intend to hold the shares for as long as the business and its management remain what they are today.'"
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "A large position (~25%) justified by 'Concentrate when the facts are clear', plus the business is 'simple to understand' and passes the acquisition-criteria screens."
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "matched",
+      "agent_reason_matched": "A wide moat from brand and distribution: 44% of world soft drink sales, more than 155 countries, Classic's rebound after New Coke showing consumer loyalty, and international consumption per person at about one-sixth of the US level."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "partial",
+      "agent_reason_matched": "Notes that entertainment was deconsolidated, bottling was restructured and capital is steered back to the core, and that $1 retained produced about $2 of value since 1981. But it calls management 'mixed but net-favourable' and treats the international growth as partly currency-flattered rather than credited to management."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "partial",
+      "agent_reason_matched": "Credits management for measuring themselves by return on capital, buybacks and passing the retained-earnings test. It does not highlight the blend of marketing and financial skill, and it criticizes buybacks made without reference to price versus value."
+    }
+  ],
+  "spurious_reasons": [],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 3,
+  "notes": "The agent got the decision right (BUY), and its roughly 25% concentrated position is close to Buffett's 17\u201321%. Its franchise and hold-forever reasoning closely tracks his. The biggest gap is management. Buffett made enthusiasm for Goizueta and Keough (their refocusing, the surge in overseas sales, and the 'rare blend of marketing and financial skills') central to the decision. The agent is lukewarm, calling management 'mixed', and leans more on a DCF margin of safety, which probably reflects a judgment that can't be drawn from annual-report data alone (Buffett had decades of observation and personal acquaintance). The company is named, but the run does not appear to be anonymized, and no post-cutoff facts are used."
+}

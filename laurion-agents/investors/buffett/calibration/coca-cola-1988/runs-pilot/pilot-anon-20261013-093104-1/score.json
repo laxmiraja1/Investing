@@ -1,0 +1,35 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "matched",
+      "agent_reason_matched": "Treats the company as an outstanding franchise and says it will hold for the long term. The default is to hold a great business permanently, and the stock rising is not a reason to sell."
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "'Concentrate when the facts are clear.' Plans a position of about 25% of the portfolio and describes the business as simple and understandable."
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "matched",
+      "agent_reason_matched": "Cites a durable, widening moat: 44% of world soft-drink sales, presence in 155 countries, consumers forcing the original formula back after the 1985 change, and international per-capita consumption at one-sixth of US levels. Missing only the investor's own decades of personal observation."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "matched",
+      "agent_reason_matched": "Notes the team in place since 1981 that exited plastics and pasta, spun off entertainment, refocused on soft drinks (over 95% of operating income), widened margins and gained share. Also notes that about three-quarters of profit is earned abroad."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "partial",
+      "agent_reason_matched": "Covers the shareholder-return side well: buybacks below today's price, more than 100% of earnings returned in 1984-87, and well over $1 of market value per $1 retained. But it gives management only a 'qualified endorsement' and criticizes its capital allocation, rather than praising a rare blend of marketing and financial skill."
+    }
+  ],
+  "spurious_reasons": [],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 4,
+  "notes": "The agent got the action (BUY) right, sized it at 25% against the investor's 17-21%, and built its case on franchise quality, management and holding indefinitely, as the investor did. The main gap is emphasis on price. The agent argues for a 37-46% margin of safety from a DCF model, while the investor never claimed a deep discount and kept buying at about $47. The agent was also more skeptical of management than Buffett's 'truly rare blend' praise, probably because it worked only from annual reports and could not judge the managers in person or draw on decades of watching the product. It kept the company anonymized and cited nothing dated after the as-of date."
+}

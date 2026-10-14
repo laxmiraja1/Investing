@@ -38,6 +38,7 @@ def main() -> None:
     ap.add_argument("--both", action="store_true", help="Run named and anonymized.")
     ap.add_argument("--probe", action="store_true", help="Run the leakage probe once.")
     ap.add_argument("--out", type=Path)
+    ap.add_argument("--label", help="Batch label, prefixed to run folder names and saved in meta.json.")
     args = ap.parse_args()
 
     agent = InvestorAgent(args.investor)
@@ -54,7 +55,7 @@ def main() -> None:
     for anon in modes:
         packet = Packet.load(args.packet, anonymize=anon)
         for n in range(1, args.runs + 1):
-            tag = f"{'anon' if anon else 'named'}-{stamp}-{n}"
+            tag = f"{args.label + '-' if args.label else ''}{'anon' if anon else 'named'}-{stamp}-{n}"
             result = agent.run(packet)
             save_run(result, out_root / tag, {
                 "investor": agent.cfg["investor"],
@@ -63,6 +64,7 @@ def main() -> None:
                 "packet": str(args.packet),
                 "as_of": packet.as_of.isoformat(),
                 "anonymized": anon,
+                "label": args.label,
                 "agent_commit": git_commit(),
             })
             d = result.decision or {}

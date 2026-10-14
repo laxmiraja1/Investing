@@ -1,0 +1,35 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "matched",
+      "agent_reason_matched": "Recommends holding indefinitely; sell triggers say the default for a great business with able, honest managers is to hold indefinitely, and a rising price alone is not a reason to sell."
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "Concentration is justified because the facts are simple and public: more than 90% of operating income comes from one simple concentrate business. The agent sizes the position at 25% of the portfolio."
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "matched",
+      "agent_reason_matched": "The most widely recognized trademark in the world, sold in more than 160 countries. Consumer preference is the moat, world share is rising, and per-capita consumption abroad leaves a long runway. The agent lacks the investor's decades of personal observation, which the packet could not supply."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "matched",
+      "agent_reason_matched": "Management has run the company as a team since 1981 and reversed the entertainment diversification. World share rose from under 38% to nearly 45%, international per-capita consumption has a long runway, and about 76\u201379% of operating income comes from abroad."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "matched",
+      "agent_reason_matched": "Management allocates capital for owners: about $5.20 of market value was created per $1 retained since 1981, 69M shares were bought back below value, and the share count is falling. The agent also cites pricing power and rising share."
+    }
+  ],
+  "spurious_reasons": [],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 4,
+  "notes": "The agent matches the BUY decision and a concentrated size (25% against about 17\u201321%). Its main thesis is the investor's: a wonderful, understandable global franchise, refocused since 1981 by owner-minded management, held indefinitely. The biggest gap is emphasis. The agent leans on a detailed DCF and margin-of-safety calculation, while the investor's documented reasoning rests on qualitative judgment: decades of watching the product and personal knowledge of Goizueta and Keough. The agent says it recognizes the company but does not name it, and it relies only on pre-cutoff packet documents, so no leakage is flagged."
+}

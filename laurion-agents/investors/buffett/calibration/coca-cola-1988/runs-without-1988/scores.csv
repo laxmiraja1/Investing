@@ -1,0 +1,11 @@
+run,anonymized,decision,decision_match,sizing_match,reasons_matched,spurious,reasoning_fidelity,leakage_suspected
+without-1988-anon-20261013-100251-1,True,BUY,exact,similar,3/5,0,4,False
+without-1988-anon-20261013-152741-1,True,BUY,exact,similar,3/5,0,4,False
+without-1988-anon-20261013-152741-2,True,BUY,exact,similar,2/5,0,3,False
+without-1988-anon-20261013-152741-3,True,BUY,exact,similar,3/5,0,3,False
+without-1988-anon-20261013-152741-4,True,BUY,exact,similar,3/5,0,4,False
+without-1988-named-20261013-100249-1,False,BUY,exact,similar,4/5,0,4,False
+without-1988-named-20261013-152739-1,False,BUY,exact,similar,4/5,0,4,False
+without-1988-named-20261013-152739-2,False,BUY,exact,similar,3/5,1,4,False
+without-1988-named-20261013-152739-3,False,BUY,exact,similar,3/5,0,4,False
+without-1988-named-20261013-152739-4,False,BUY,exact,similar,3/5,0,3,False

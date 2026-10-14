@@ -1,0 +1,44 @@
+# What Buffett actually did and said. The agent never sees this file.
+trade: coca-cola-1988
+as_of: 1989-02-27
+cutoff_note: >-
+  Day before 1989-02-28, the date of the 1988 letter, which is the earliest
+  archive document disclosing the position (holdings table: 14,172,500 shares).
+  No earlier public disclosure was found, but none was ruled out either
+  (e.g. press reports of an unnamed buyer in late 1988). Treat as provisional.
+actual_decision: BUY
+actual_size_pct: 20
+size_basis: >-
+  Cost as a share of Berkshire's net worth. Year-end 1988: $592.5M cost
+  (14,172,500 shares) against about $3.41B net worth, about 17%. Year-end 1989,
+  after further buying: $1,023.9M cost (23,350,000 shares) against about
+  $4.93B, about 21%. Net worth derived from each letter's "gain in net worth"
+  sentence. A concentrated, top-two position either way.
+documented_reasons:
+  - reason: "An outstanding business with outstanding management, bought to hold indefinitely."
+    quote: "In fact, when we own portions of outstanding businesses with outstanding managements, our favorite holding period is forever."
+    source: brk-letter-1988
+  - reason: "Concentration in a very few companies he understands well."
+    quote: "We continue to concentrate our investments in a very few companies that we try to understand well."
+    source: brk-letter-1988
+  - reason: "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades."
+    quote: "I duly observed the extraordinary consumer attractiveness and commercial possibilities of the product. I continued to note these qualities for the next 52 years as Coke blanketed the world."
+    source: brk-letter-1989
+  - reason: "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated."
+    quote: "Roberto, along with Don Keough, once my across-the-street neighbor in Omaha, first rethought and focused the company's policies and then energetically carried them out. What was already the world's most ubiquitous product gained new momentum, with sales overseas virtually exploding."
+    source: brk-letter-1989
+  - reason: "A CEO combining marketing and financial skill, so product growth turns into shareholder returns."
+    quote: "Through a truly rare blend of marketing and financial skills, Roberto has maximized both the growth of his product and the rewards that this growth brings to shareholders."
+    source: brk-letter-1989
+main_reason: >-
+  A wonderful, understandable consumer franchise whose international growth had
+  accelerated under shareholder-minded management, bought in size to hold
+  indefinitely. Price mattered but neither letter claims a deep discount: the
+  1988 purchases averaged $41.81/share, and he kept buying in 1989 at about $47.
+notes: >-
+  Reasons come from letters written after the trade (1988 letter dated
+  1989-02-28, 1989 letter dated 1990-03-02). The 1988 letter states the
+  purchase and holding intent; the 1989 letter gives the reasoning. The 1989
+  letter's general lesson ("far better to buy a wonderful company at a fair
+  price") is relevant context but is not stated about Coca-Cola, so it is not
+  listed as a documented reason.

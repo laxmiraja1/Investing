@@ -1,0 +1,14 @@
+{
+  "proceed": true,
+  "filters_checked": [
+    "Turnarounds seldom turn (brk-letter-1979): not a turnaround; operating income and EPS rose every year 1976-1987, ROE 20% to 27%",
+    "Little or no debt (brk-letter-1982 / brk-letter-1986#10): gross debt 45.6% of capital at 1987 year-end, but net debt 15.3% under a 35% ceiling; the core business is cash-generative and not debt-dependent; flagged for Stage 2 because management prefers more leverage",
+    "Demonstrated consistent earning power, not projections (brk-letter-1982): 12-year record of steady growth in the packet",
+    "High return on equity without undue leverage or accounting tricks (brk-letter-1979): 27-29% net income on average equity in 1986-87; one-time items noted and they net out",
+    "Simple business / circle of competence (brk-letter-1986#10): syrup and concentrate business, more than 95% of operating income, ~63% gross margin, no heavy technology; entertainment moved to a 49% equity stake",
+    "Management in place (brk-letter-1982): Goizueta/Keough team since 1981, explicit shareholder-value goal, active buybacks",
+    "Size large enough to matter (brk-letter-1986#10 $10M after-tax earnings minimum; brk-letter-1987 'elephants'): ~$17.3B market value, ~$916M net income",
+    "Excluded industries / regulated or commodity economics (brk-letter-1985#9, brk-letter-1986#22): not commodity, not regulated"
+  ],
+  "reason": "No hard gatekeeper excludes Coca-Cola. It is not a turnaround: the packet shows twelve years of rising earnings and return on equity reaching 27-29%. The core concentrate business is simple and understandable, needs little capital, earns about 63% gross margins on U.S. concentrate, and supplied more than 95% of operating income, so it sits inside the circle of competence under the 'simple businesses' criterion. Management (Goizueta/Keough since 1981) is in place, and at ~$17B market value and ~$916M net income the company is far above the $10M after-tax earnings minimum. The one caution is the balance sheet: gross debt reached 45.6% of capital in 1987, mostly to pay for buybacks and bottler stakes, and management openly plans to use leverage up to a 35% net debt-to-capital ceiling. Net of excess cash and receivables that converted to cash in January 1988, debt was 15.3% of capital, and the core business generates about $1.2B a year in operating cash, so the business does not need debt. Stage 2 should test whether returns hold up without that leverage and whether the price of 19.2x 1987 earnings (~$2.07/share in estimated owner earnings) is sensible. 1988 results are missing from the packet."
+}

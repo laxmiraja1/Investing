@@ -1,0 +1,35 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "matched",
+      "agent_reason_matched": "Recommends a large position held permanently; default is a permanent holding (brk-letter-1987#18); price alone is not a sell trigger."
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "Size fits a concentrated position (bpl-letter-1965, 'elephants'); simple concentrate business that produces over 95% of operating income; side holdings set aside."
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "matched",
+      "agent_reason_matched": "Durable and widening franchise: 44% of world volume, 155+ countries, New Coke reversal showing consumer loyalty, pricing power, international per-capita runway. Lacks the decades-long personal observation, but the substance matches."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "partial",
+      "agent_reason_matched": "Management sold low-return plastics and pasta and moved entertainment into CPE; notes the international runway and that operating income is heavily international. Does not credit the post-1981 leadership with accelerating overseas growth, and treats the recent international boost partly as a currency tailwind."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "partial",
+      "agent_reason_matched": "Retained-earnings test (about $2\u20135 of market value per $1 retained), buybacks at sensible prices, explicit 12% hurdle. This covers the financial and shareholder-return side; the combined marketing skill of the CEO is not stressed."
+    }
+  ],
+  "spurious_reasons": [],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 4,
+  "notes": "The agent matches the BUY decision, the concentrated size (25% vs about 17\u201321%) and the permanent holding intent, and it bases the case on the franchise's consumer appeal and global reach, as the investor did. The biggest gap is how much each side credits management: the investor gives large credit to Goizueta and Keough for refocusing the company and making overseas sales \"virtually explode\". The agent judges management by mechanical capital-allocation metrics and even discounts recent international results as partly currency-driven. The likely cause is a missing judgment input: the packet does not support assessing management personally. The run was not anonymized, the data cited (1988 EPS, the late-January 1989 UPI report) appears to have been public by the as-of date, and no leakage was detected."
+}

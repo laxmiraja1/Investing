@@ -1,0 +1,35 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "matched",
+      "agent_reason_matched": "The agent intends to hold permanently and says a high quoted price alone is not a sell trigger (brk-letter-1987#18). It would sell only if it had misjudged the franchise's economics or its managers."
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "Concentrate when the facts are clear: a ~25% position, justified by a business simple enough that the question that matters can be stated plainly (\u00a77, bpl-letter-1965)."
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "matched",
+      "agent_reason_matched": "A wide and widening moat: the most recognized trademark, 44% of soft drinks sold worldwide, twice the nearest rival's volume, and international per-capita consumption at one-sixth of the US rate, which leaves a long runway. The franchise survived the 1985 formula error."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "partial",
+      "agent_reason_matched": "The agent notes management has been in place since 1981 and has since spun off entertainment, moved bottling into affiliates and refocused. But it calls management's record 'mixed but improving', stresses the 1982\u201386 diversification mistakes, and does not credit management with the international acceleration."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "partial",
+      "agent_reason_matched": "The agent credits buybacks below value (13% of shares retired) and $2\u20135 of market value created per $1 retained. It does not treat this as a rare managerial skill, and it flags executive pay and promotional reports as concerns."
+    }
+  ],
+  "spurious_reasons": [],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 4,
+  "notes": "The decision (BUY), the concentrated size (25% vs ~17\u201321%), the intent to hold permanently, and the 'fair price for a wonderful business, not a deep discount' framing all match Buffett closely. The biggest gap is management. Buffett treats Goizueta and Keough as an outstanding team whose refocusing drove the overseas acceleration and whose financial skill turned growth into shareholder returns. The agent rates management as 'mixed but improving' and lists their capital allocation mostly as a risk. That probably reflects judgment the packet couldn't supply: it covers the 1982\u201386 diversification record, while Buffett formed his view from long personal acquaintance with Keough. There is no leakage: the agent uses only sources dated before the as-of date and never names the company, though packet abbreviations such as CCE appear."
+}

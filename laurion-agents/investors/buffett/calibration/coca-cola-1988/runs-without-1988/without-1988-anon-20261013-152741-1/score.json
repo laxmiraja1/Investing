@@ -1,0 +1,35 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "matched",
+      "agent_reason_matched": "Intends to hold indefinitely, with no catalyst needed. A high price alone is not a sell trigger. Treats it as an outstanding franchise with capable management that has allocated capital well since 1981."
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "Concentrated position of about 25% (against a 40% ceiling), justified because the business is simple to understand and very unlikely to see its value change drastically."
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "partial",
+      "agent_reason_matched": "Hundred-year-old brand, 44% world share, presence in 155 countries, recovery after the 1985 reformulation, and international per-capita consumption at about one-sixth of the U.S. level. This is framed as moat and market-share statistics rather than the investor's decades of watching the product's consumer appeal."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "matched",
+      "agent_reason_matched": "The current team took over in 1981, sold pasta and plastics, refocused on soft drinks and moved capital-heavy units into affiliates. About 74% of operating income comes from abroad and has grown."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "partial",
+      "agent_reason_matched": "Covers the financial side well: buybacks below value, a 12% hurdle rate, and more than $1 of market value per $1 retained. It does not credit management's marketing skill and voices reservations (promotional reports, incentives tied to share price, appetite for leverage)."
+    }
+  ],
+  "spurious_reasons": [],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 4,
+  "notes": "The agent made the same decision (BUY) at a similar concentrated size (25% vs about 17\u201321%). Its reasoning centers on the investor's main thesis: a wonderful, understandable franchise, refocused management, and an indefinite hold at a sensible rather than deep-discount price. The main gap is emphasis. The agent builds its case from quantitative moat, ROE and DCF analysis taken from the annual reports, and treats management with caution (not met, promotional tone, leverage). Buffett instead stressed decades of watching the product's consumer appeal and warmly praised Goizueta and Keough's combined marketing and financial skill. That gap probably comes from missing judgment, since the agent had no personal familiarity with the product or the managers. No leakage: the company stays anonymized and every fact used predates the as-of date."
+}

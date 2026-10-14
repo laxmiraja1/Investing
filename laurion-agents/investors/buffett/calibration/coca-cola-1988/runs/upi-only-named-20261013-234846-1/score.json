@@ -1,0 +1,37 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "matched",
+      "agent_reason_matched": "Says the business and management pass its tests, 'We expect to hold indefinitely', and its sell triggers default to holding indefinitely for a great business with able managers."
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "Builds a ~20% position under 'concentrate when the facts are clear' and 'hunt elephants', and describes the syrup/concentrate business as simple."
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "partial",
+      "agent_reason_matched": "Gives the 44% worldwide share, the consumer loyalty shown after the 1985 formula change, and international per-capita consumption at 16% of the US level. It frames these as moat and market share, not as consumer appeal observed over decades."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "partial",
+      "agent_reason_matched": "Credits management for spinning off and restructuring the weaker businesses and notes the high international returns. It mostly criticizes the diversification and does not treat the post-1981 refocus and the jump in overseas sales as a main driver."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "partial",
+      "agent_reason_matched": "The retained-earnings test (about $5.5 of market value per $1 retained) and buybacks below value cover the financial side. Marketing skill and the CEO himself are not discussed."
+    }
+  ],
+  "spurious_reasons": [
+    "Sizing capped at ~20% because of uncertainty about the discount rate / interest rates (minor; a DCF-driven limit not in the investor's stated reasoning)"
+  ],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 4,
+  "notes": "The agent made the same decision (BUY, ~20%) and gave the same main thesis: a wonderful, understandable consumer franchise with a long international runway and shareholder-minded capital allocation, held indefinitely. The biggest gap is how it treats management. Buffett praised Goizueta and Keough for refocusing the company and making overseas sales 'virtually explode.' The agent mostly scored management on retained earnings and buyback numbers and was more critical of the past diversification. This probably reflects missing qualitative judgment, such as decades of watching the product and knowing Keough personally, rather than a gap in the data packet. No leakage was found; the ticker was not anonymized."
+}

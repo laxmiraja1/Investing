@@ -1,0 +1,12 @@
+{
+  "proceed": true,
+  "filters_checked": [
+    "Turnarounds seldom turn (brk-letter-1979; acquisition criterion 2 'demonstrated consistent earning power', brk-letter-1986#10)",
+    "Avoid businesses that need debt / good ROE with little or no debt (brk-letter-1982)",
+    "Simple business / circle of competence: no heavy technology (criterion 5, brk-letter-1986#10)",
+    "Size: large enough to matter, $10M+ after-tax earnings threshold and 'elephants' (brk-letter-1986#10, brk-letter-1987)",
+    "Management in place, honest and candid (brk-letter-1979; criterion 4)",
+    "Hostile/control situation check (not applicable; a purchase of marketable shares as with the permanent holdings, brk-letter-1987#18)"
+  ],
+  "reason": "No hard filter rules Company A out. (1) It is not a turnaround. Net income rose every year from $331M in 1977 to $916M in 1987, return on equity rose from about 20% to 27-29%, and cash dividends have increased 26 years in a row (ar-1987 selected data). The 1986-87 charges were restructuring and South Africa exits, and 1987 operating income excluding unusual items was up 23%. (2) Debt: the core concentrate business needs little capital and generated about $1.2B of operating cash in 1987. Gross debt has risen to 45.6% of capital, but net of excess cash and receivables it is 15.3%, against management's 35% ceiling. The borrowing funded buybacks and bottler stakes, not operations, so this is a financing choice rather than a business that needs debt. Stage 2 must test whether the 27% ROE depends on leverage. (3) Circle of competence: soft-drink concentrate is more than 95% of operating income, it is a simple branded franchise with no technology risk, and the 10-year economics (volume growth, low consumption abroad, 44% world share) can be read from the packet. Entertainment has been moved into a 49% affiliate, and foods is small. (4) Size: $916M of net income and a $17.3B market value easily allow a position large enough to matter. Berkshire's exact capital on the as-of date is not in the packet. (5) Management has been in place since 1981 and is buying back shares. Whether the buybacks were below intrinsic value and whether reporting meets the candor standard are Stage 2 questions. 1988 results are not in the packet."
+}

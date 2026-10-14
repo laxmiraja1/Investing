@@ -5,3 +5,9 @@ __pycache__/
 # Copyrighted source material (books, paid transcripts) stays local.
 # Keep a manifest row for it, but don't commit the file itself.
 investors/*/archive/private/
+# Calibration source documents (copyrighted scans and their OCR text) stay local.
+investors/*/calibration/**/*.pdf
+investors/*/calibration/**/ocr/
+investors/*/calibration/**/packet*/ar-*.txt
+investors/*/calibration/**/news/
+investors/*/calibration/**/packet*/upi-*.txt

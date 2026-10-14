@@ -1,0 +1,35 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "partial",
+      "agent_reason_matched": "Plans to hold indefinitely ('default holding period for a great business with able managers is indefinite') and calls the business outstanding, but rates management only 'mixed', not outstanding."
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "'Simple to understand... no technology to judge'; concentrated 20% position sized against the framework's concentration principle (bpl-letter-1965)."
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "matched",
+      "agent_reason_matched": "Durable moat: 44% of world soft drinks, sold in 155 countries, twice the nearest competitor's volume; the original formula's recovery after 1985 as proof of consumer loyalty; low per-capita consumption abroad leaves room to grow."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "partial",
+      "agent_reason_matched": "Says the team in place since 1981 'has run the core business well' and that international is 74% of operating income with high returns. But it treats the entertainment diversification as a black mark and does not credit management with refocusing the company."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "partial",
+      "agent_reason_matched": "Credits buybacks, the lower dividend payout and about $6 of market value per $1 retained. But it criticizes management's capital allocation (share issuance, low-return affiliate stakes) instead of seeing it as rare financial skill."
+    }
+  ],
+  "spurious_reasons": [],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 3,
+  "notes": "The agent matches the decision (BUY) and the size (20%, against 17-21% actual). Its core case also matches: an understandable, globally dominant franchise with very high returns, held indefinitely. The biggest gap is management. Buffett praised Goizueta and Keough as outstanding operators with a rare mix of marketing and financial skill. The agent gives a 'mixed verdict', citing the entertainment diversification and the 1985 share issuance. This probably happened because the agent could only judge management from the annual reports' capital-allocation record and could not assess them in person, and it said so itself. The agent did not name the company, and every fact it cites appears consistent with information available before the as-of date."
+}

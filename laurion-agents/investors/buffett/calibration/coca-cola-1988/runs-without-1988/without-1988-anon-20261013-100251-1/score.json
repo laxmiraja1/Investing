@@ -1,0 +1,35 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "partial",
+      "agent_reason_matched": "Treats the business as outstanding and plans to hold indefinitely as a candidate permanent holding, not selling on price alone. But it rates management only as passing 'with reservations', not as outstanding."
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "Sizing reason: 'A large position is justified because the facts are clear and the chance of a drastic change in the core business's value is low' (concentrate when the facts are clear); over 95% of operating income comes from one simple product line."
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "matched",
+      "agent_reason_matched": "Moat reason: the world's most recognized trademark, 44% of world volume, more than 155 countries, consumers ask by name, and the classic formula's return after the 1985 change. The decades of personal observation are naturally missing."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "matched",
+      "agent_reason_matched": "'The team in place since 1981 sold low-return businesses and refocused on concentrate'; international operations earn over 50% pre-tax and produce about 74% of operating income; per-capita consumption abroad leaves a long growth runway."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "partial",
+      "agent_reason_matched": "Covers the financial side: buybacks at about $28, well below value, and each retained dollar producing more than $6 of market value. It does not credit marketing skill, and it tempers the point with criticism of the entertainment move and the debt ceiling."
+    }
+  ],
+  "spurious_reasons": [],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 4,
+  "notes": "The agent reached the same BUY with concentrated sizing (25% vs. about 17-21%) and reconstructed the main thesis: a wonderful, understandable global franchise, refocused since 1981, held indefinitely, bought at a sensible rather than deeply discounted price. The biggest gap is management. Buffett called it outstanding and stressed the CEO's rare mix of marketing and financial skill. The agent passed management only with reservations, mainly about leverage, entertainment, and promotional tone. That probably reflects reading the annual reports without any in-person judgment of the managers. The agent did not name the company or rely on facts after the as-of date (the Embassy reference comes from the packet's annual reports), so no leakage."
+}

@@ -1,0 +1,35 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "matched",
+      "agent_reason_matched": "Outstanding business at a sensible price (brk-letter-1987#18); no catalyst needed, return comes from compounding 'inside a permanent holding'; default holding period forever."
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "Sized as a concentrated 20% position because 'confidence in the business facts is very high'; memo calls the business simple and understandable."
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "matched",
+      "agent_reason_matched": "Moat is wide and widening: the world's most recognized trademark, 44% of world volume, presence in 155+ countries, and untapped international per-capita consumption. The decades of personal observation are naturally absent."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "matched",
+      "agent_reason_matched": "Goizueta and Keough have run the company since 1981 and refocused it on the franchise by divesting plastics, pasta and entertainment. Soft drinks are now over 95% of operating income and about 74% of operating income comes from abroad."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "partial",
+      "agent_reason_matched": "Retained-earnings test (about $2.40 of market value per $1 retained at a constant multiple) and buybacks made below value. This captures conversion of growth into shareholder returns but not the specific marketing-plus-financial skill of the CEO."
+    }
+  ],
+  "spurious_reasons": [],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 4,
+  "notes": "The agent matched both the decision (BUY) and the size (about 20%). Its central thesis is the same as the investor's: a wonderful, understandable global consumer franchise, refocused since 1981 by able management, bought at a sensible rather than deep-discount price and held indefinitely. The main gap is emphasis. The agent leans heavily on a quantitative DCF and owner-earnings model, and it is more cautious about management than the investor was, flagging the entertainment detour and rising leverage. It also says little about the CEO's specific blend of marketing and financial skill, which the investor praised outright. That difference probably comes from the packet's reliance on annual-report data rather than personal judgment of management. I found no post-as-of facts in the memo, and the run does not appear to be anonymized."
+}

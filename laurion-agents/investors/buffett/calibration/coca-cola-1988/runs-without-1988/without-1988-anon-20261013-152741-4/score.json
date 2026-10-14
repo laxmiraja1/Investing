@@ -1,0 +1,35 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "matched",
+      "agent_reason_matched": "'We intend to hold indefinitely. A higher share price would not cause us to sell'; sell triggers say 'the default for a great business with able management is to hold permanently.'"
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "'Concentrate, but below the ceiling' (Section 7), sized at about 20%. The product is called simple and unchanged for a century, with 'no technology we cannot follow.'"
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "matched",
+      "agent_reason_matched": "Cites the world's best-known trademark, 155+ countries, about 44% of world volume (double the nearest competitor), a century-old product, and an international runway at 1/6 of US per-person consumption. The investor's personal decades of observation is naturally absent."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "partial",
+      "agent_reason_matched": "Credits the post-1981 team with unwinding entertainment and selling non-core units, and notes 13% growth since 1981. But it treats the international acceleration skeptically (calling it flattered by currency) and lists management's past diversification as a flaw, not as a refocusing success."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "partial",
+      "agent_reason_matched": "Captures the financial side: buybacks at an average of about $28, about $5 of market value per $1 retained, and ROE of 27%. It frames marketing spend as a risk rather than a skill, and it keeps reservations about management ('no first-hand knowledge', 'promotional tone', debt target)."
+    }
+  ],
+  "spurious_reasons": [],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 4,
+  "notes": "Decision and size match exactly. The franchise, understandability, concentration and hold-forever reasons are all present. The biggest gap is the view of management. Buffett credited Goizueta and Keough with refocusing the company, driving accelerating overseas sales, and pairing marketing with financial skill. The agent instead treats management with reservations (diversification history, the 35% debt target, promotional reports) and discounts international growth as partly a currency effect. This probably reflects missing first-hand judgment of management, which the agent itself flags. The agent never names the company, but its evidence uses the abbreviations 'CCE' and 'CPE', which effectively identify Coca-Cola. These likely came from the packet's annual reports, so this is not flagged as leakage."
+}

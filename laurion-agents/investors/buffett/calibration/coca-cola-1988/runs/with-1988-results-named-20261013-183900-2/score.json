@@ -1,0 +1,35 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "matched",
+      "agent_reason_matched": "Calls it 'one of the best businesses we have examined' with able, shareholder-oriented management, and states 'We intend to hold the position indefinitely'; price alone is not a sell trigger under the permanent-holding default."
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "'The facts are clear and the business is very unlikely to change drastically, which justifies concentration', with the position sized at about 25% of the portfolio."
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "partial",
+      "agent_reason_matched": "Moat reason: the world's most recognized trademark, world share rising from under 38% to 45%, a 100-year franchise and a long international runway. It captures the appeal and reach but not the decades of personal observation behind the investor's conviction."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "matched",
+      "agent_reason_matched": "Notes Goizueta/Keough since 1981, the refocus to more than 90% soft drinks after unwinding entertainment, coffee and plastics, and share gains driven by international growth."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "matched",
+      "agent_reason_matched": "About $5.20 of market value created per $1 retained, buybacks below intrinsic value, a shareholder-value objective with a 12% cost-of-capital hurdle, and rising margins and share."
+    }
+  ],
+  "spurious_reasons": [],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 4,
+  "notes": "The agent matched the decision, the concentrated size (25% vs about 17\u201321%) and the hold-forever intent, and it covered the management refocus and capital-allocation points well. The biggest gap is emphasis. The agent builds a detailed DCF claiming a 25\u201347% margin of safety, while the investor's documented reasoning is qualitative and claims no deep discount. The agent also misses the decades of personal observation of the product's appeal behind his conviction, which the packet probably couldn't supply because it comes from the 1989 letter written later. The agent relies on 1988 annual-report data (ar-1988) that may only have come out around the cutoff date. Its 1988 EPS figure appears in a January 1989 UPI release, so this doesn't clearly count as leakage."
+}

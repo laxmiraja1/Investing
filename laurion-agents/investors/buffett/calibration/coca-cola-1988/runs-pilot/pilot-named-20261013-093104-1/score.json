@@ -1,0 +1,35 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "matched",
+      "agent_reason_matched": "Sell triggers: 'The default for a great business with able managers is to hold permanently'; memo: 'a holding we would expect to keep indefinitely.'"
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "'A concentrated position is justified because the chance of anything drastically changing the underlying value is very low' (25% sizing); a simple business with 'no technology to misjudge.'"
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "matched",
+      "agent_reason_matched": "Moat reason: world's best-known trademark, 44% of world soft-drink volume, sold in 155+ countries, international per-capita consumption at 16% of the US level; the product is a 'century-old' franchise. It lacks the personal decades-long observation, but the substance is there."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "partial",
+      "agent_reason_matched": "'Goizueta/Keough since 1981... refocused on the core business... reversing most of its diversification mistakes'. The agent notes high international returns but never highlights overseas sales 'virtually exploding' as momentum gained under this management. It also rates management only 'passes, with reservations.'"
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "partial",
+      "agent_reason_matched": "The retained-earnings test ($2 of value per $1 retained) and the stated 12% cost-of-capital hurdle point to shareholder-minded capital allocation. But the agent criticizes how buybacks are justified and the promotional reports, so it is less enthusiastic than Buffett about the CEO's financial skill."
+    }
+  ],
+  "spurious_reasons": [],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 4,
+  "notes": "The agent made the same decision as Buffett (a concentrated BUY at 25% vs his 17\u201321%) for the same core reason: a wonderful, understandable consumer franchise with a worldwide runway, bought at a sensible (not bargain) price to hold indefinitely. The biggest gap is how it judges management. Buffett was strongly enthusiastic about Goizueta and Keough's refocusing, the surge in overseas sales and Goizueta's rare blend of marketing and financial skill. The agent rated them 'passes, with reservations' and criticized the promotional tone and how buybacks were justified. This probably comes from having only annual reports to go on, with no personal knowledge of the managers (Keough was Buffett's former neighbor). The agent's DCF-heavy valuation and cash-flow detail go beyond Buffett's documented reasoning but fit his framework. The run is not anonymized and no post-cutoff facts appear."
+}

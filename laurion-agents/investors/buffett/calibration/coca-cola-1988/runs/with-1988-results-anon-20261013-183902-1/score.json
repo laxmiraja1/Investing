@@ -1,0 +1,35 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "matched",
+      "agent_reason_matched": "Recommends holding indefinitely; sell trigger says the default holding period is permanent for a great business with able, honest managers, and a rising price alone is not a reason to sell."
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "Concentration is justified because the facts are clear and the business is simple with no technology risk; sized at about 25% of the portfolio."
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "matched",
+      "agent_reason_matched": "Moat built on the world's best-known trademark and global distribution in over 160 countries; worldwide share rising to ~45%; consumer loyalty shown by recovery from the 1985 reformulation. The decades of personal observation are not part of it."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "matched",
+      "agent_reason_matched": "Managers who built the record have been in place since 1981 and have refocused on the core after the entertainment detour; 76% of operating income earned abroad; long international runway (51 vs 274 servings per person) and rising share."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "partial",
+      "agent_reason_matched": "Owner-oriented capital allocation: buybacks well below value and about $5 of market value created per $1 retained. The financial skill is credited, but marketing skill and a CEO who joins the two are not."
+    }
+  ],
+  "spurious_reasons": [],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 4,
+  "notes": "The agent reached the same concentrated, hold-forever BUY with similar sizing (25% vs ~17\u201321%), and its reasoning lines up well with Buffett's: a wonderful consumer franchise, accelerating international growth, and management since 1981 that refocused the company. The main gap is emphasis. The agent leans on a DCF-style margin of safety (~30%) and ROE/owner-earnings tests, while the investor's documented reasons stress the product's consumer appeal and the CEO's mix of marketing and financial skill. No information from after the as-of date is used. The memo does use 'CCE' (an affiliate abbreviation that points to the real company) and 'Brand A classic', which partly breaks the anonymization, though these likely came from the packet's annual reports."
+}

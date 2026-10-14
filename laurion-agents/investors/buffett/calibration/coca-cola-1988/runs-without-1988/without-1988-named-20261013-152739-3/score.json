@@ -1,0 +1,35 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "matched",
+      "agent_reason_matched": "Buy at a fair price for an exceptional business and hold indefinitely; 'Not a trigger: the price simply rising above intrinsic value. The intent is a permanent holding.'"
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "Size is large (~25%) but below the 40% ceiling; 'Coca-Cola's business is simple' (concentrate sold to bottlers), which the agent treats as understandable."
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "partial",
+      "agent_reason_matched": "Wide moat from brand and distribution: 44% of world soft drinks, more than 155 countries, the brand survived New Coke, and international per-capita consumption has room to grow. This covers the brand and global reach but not the decades-long personal observation of the product's consumer appeal."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "matched",
+      "agent_reason_matched": "'Since 1981 Roberto Goizueta and Donald Keough have raised return on equity... and moved the company back toward its core'; entertainment cut back and noncore units sold; ~74% of operating income comes from outside the U.S., with a long international growth runway."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "partial",
+      "agent_reason_matched": "Retained-earnings test (~$2.50 of market value per $1 retained), buybacks below value, and a 25%/yr total return. The agent sees shareholder-minded capital allocation but calls management 'good but not flawless', with marks against it, rather than praising a rare blend of marketing and financial skill."
+    }
+  ],
+  "spurious_reasons": [],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 4,
+  "notes": "The agent got the action right (BUY), sized it about the same (25% vs ~17\u201321%), and matched the main thesis: a wonderful, understandable franchise run by refocused, shareholder-minded management, held indefinitely and bought at a sensible price rather than a deep discount. The biggest gap is on management. The agent was cautious about it, citing the Columbia/Embassy share issuance, the affiliate capital and the leverage, while Buffett strongly endorsed Goizueta's marketing and financial skill. The agent also could not draw on Buffett's decades of personal observation of the product. Both gaps probably come from missing personal judgment that the packet's annual reports could not supply. The company is named, but this does not look like an anonymized run (the ticker KO was given), and the agent does not rely on any post-cutoff facts."
+}

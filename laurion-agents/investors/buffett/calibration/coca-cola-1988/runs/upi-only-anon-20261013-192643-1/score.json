@@ -1,0 +1,35 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "partial",
+      "agent_reason_matched": "Hold indefinitely as a permanent holding with no catalyst; high ROE as the test of business quality. But the agent says management passes only 'with qualifications' and wants to meet them first, so 'outstanding management' is not fully endorsed."
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "The facts are clear and the business is simple with no technology risk, so a concentrated position of about 25% is justified (\u00a77, concentrate when the facts are clear)."
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "matched",
+      "agent_reason_matched": "A wide brand-and-distribution moat: the world's best-known trademark, 44% of worldwide volume, more than 155 countries, and per-capita consumption outside the U.S. at one-sixth the U.S. rate. Shown through data, not decades of personal observation."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "partial",
+      "agent_reason_matched": "Notes management has been in place since 1981, rising margins and share, and that about 75% of operating income comes from abroad. But it does not credit management with refocusing the company. It treats the diversification and its reversal mainly as a weakness, and treats the international results partly as a currency effect."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "partial",
+      "agent_reason_matched": "Each $1 retained produced about $2.70 of market value, and buybacks have actually been made. But the agent questions the buyback motive and timing, and does not frame management as unusually skilled at turning growth into shareholder returns."
+    }
+  ],
+  "spurious_reasons": [],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 3,
+  "notes": "The agent got the decision right (BUY) and sized it similarly (25% vs. about 17\u201321%). It also matched the core thesis: an understandable worldwide consumer franchise with high returns, bought to hold indefinitely, at a sensible price rather than a bargain. The biggest gap is management. Buffett praised Goizueta and Keough for refocusing the company and for a rare mix of marketing and financial skill. The agent passes management only 'with qualifications', criticizes the diversification and the buyback timing, and wants to meet them first. This probably reflects missing judgment from personal knowledge of the managers (Keough was a former neighbor), plus the agent leaning on the earlier annual reports, which cover the diversification era. No leakage was found, and the company was not named."
+}

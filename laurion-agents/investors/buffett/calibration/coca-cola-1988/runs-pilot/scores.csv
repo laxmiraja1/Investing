@@ -1,0 +1,3 @@
+run,anonymized,decision,decision_match,sizing_match,reasons_matched,spurious,reasoning_fidelity,leakage_suspected
+pilot-anon-20261013-093104-1,True,BUY,exact,similar,4/5,0,4,False
+pilot-named-20261013-093104-1,False,BUY,exact,similar,3/5,0,4,False

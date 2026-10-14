@@ -1,0 +1,37 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "matched",
+      "agent_reason_matched": "Intends to hold the shares permanently like the other permanent holdings and not sell because the price rises; makes the case that the franchise is durable and the management able."
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "Proposes a position of about 25%, citing 'concentrate when the facts are clear', and describes the business as simple to understand: a branded product with no technology risk."
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "matched",
+      "agent_reason_matched": "Cites the trademark-and-distribution moat, 44% of world soft-drink volume, and Coca-Cola classic's recovery after New Coke as evidence of consumer loyalty. It does not mention Buffett's decades of personal observation."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "partial",
+      "agent_reason_matched": "Names Goizueta and Keough since 1981 and the exits from entertainment, plastics and pasta. It treats international business as room to grow (per-capita consumption at 16% of the US level) but marks down recent international growth as partly currency, so it does not credit overseas acceleration as a driver."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "partial",
+      "agent_reason_matched": "Credits buybacks at $18-25, the cut in dividend payout, and the test that each retained dollar created more than a dollar of market value. It does not frame this as the CEO's rare mix of marketing and financial skill."
+    }
+  ],
+  "spurious_reasons": [
+    "Uses the price being near its 52-week high (and the 1988 trading range) to limit position size, a mildly price-action consideration the investor did not give"
+  ],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 4,
+  "notes": "The agent got the decision right (BUY), and its 25% target is within range of the investor's 17-21%. Its main thesis matches his: a durable, understandable worldwide franchise under able, shareholder-minded management, held permanently. The biggest gap is emphasis. The agent leans on a detailed DCF margin-of-safety calculation, and it marks down international growth as partly currency effects. Buffett's later reasoning instead centres on the management team's refocusing and on overseas sales 'virtually exploding'. The likely cause is that the packet had no 1988 results and no local-currency data, plus a framework that weights valuation over a qualitative judgment of management. No leakage was found: the price data it cites was public before the as-of date, and the run was not anonymized."
+}

@@ -1,0 +1,35 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "matched",
+      "agent_reason_matched": "Memo says 'We intend to hold the shares indefinitely' and that a higher price alone is not a reason to sell; the default sell trigger is permanent holding; it calls this an outstanding business with able management in place."
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "Cites \u00a77, concentrate when the facts are clear, and sizes at ~25% of the portfolio; stresses that the business is 'simpler than its size suggests' and needs no technology it cannot understand."
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "matched",
+      "agent_reason_matched": "Cites ~45% world share, more than twice any competitor; 559M servings a day in 160+ countries; consumers forcing the return of the original formula as proof of attachment; international per-capita consumption at ~1/6 of US levels. It lacks the decades-of-personal-observation framing."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "matched",
+      "agent_reason_matched": "Goizueta and Keough since 1981; plastics, pasta and coffee sold and entertainment spun off, so capital went back into the core franchise; international volume growing 7-12% a year; ~76% of operating income from abroad."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "partial",
+      "agent_reason_matched": "Covers the financial side: ~$5 of market value per $1 retained, a 12% cost-of-capital hurdle, and buybacks at ~$31.50. It does not credit management's marketing skill, and it voices reservations about promotional reporting and pay tied to the share price, which run against Buffett's strong praise of Goizueta."
+    }
+  ],
+  "spurious_reasons": [],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 4,
+  "notes": "The agent matched both the BUY decision and the concentrated size (25% vs ~17-21%). Its core thesis is the same as Buffett's: a wonderful, understandable global franchise, refocused by Goizueta and Keough, with international growth, held indefinitely. The biggest gap is tone on management. The agent adds reservations (promotional reports, pay tied to the share price, leverage) where Buffett gave unreserved praise of Goizueta's blend of marketing and financial skill. This probably reflects missing judgment from personal knowledge of management (Keough was his neighbor), which the packet cannot supply. The heavy DCF and net-working-capital discussion is more quantitative than Buffett's stated reasoning but stays within his framework, and no post-cutoff information was used."
+}

@@ -1,0 +1,37 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "matched",
+      "agent_reason_matched": "Indefinite holding period; 'Under the forever default for great businesses with great managers, a higher price alone is not a sell trigger'; passive non-voting partnership in an excellent franchise with excellent operators."
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "Large, concentrated 25% position justified because 'the facts are clear'; the business is simple, has no technology risk and can be understood from its reports."
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "partial",
+      "agent_reason_matched": "Durable moat: 44% world share, presence in 155+ countries, and consumers forced the original formula back in 1985. The agent rests this on market-share figures rather than on decades of watching the product's consumer appeal."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "matched",
+      "agent_reason_matched": "Goizueta and Keough in charge since 1981 and refocusing on the franchise (soft drinks >95% of operating income); ~77% of soft-drink operating income comes from abroad; long international per-capita runway."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "partial",
+      "agent_reason_matched": "Retained earnings produced about $5.50 of market value per $1; buybacks at 11-15x earnings added value. However, the agent calls capital allocation 'mixed' and warns against relying on management outside the core, which is cooler than Buffett's praise."
+    }
+  ],
+  "spurious_reasons": [
+    "Claims a 35-48% margin of safety from a detailed DCF. The investor's documents never say the stock was a deep discount, and he kept buying at higher prices. This idea is within the framework, but it gets too much weight relative to the investor's actual reasoning."
+  ],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 4,
+  "notes": "The agent got the decision right (BUY) and sized it about right (25% vs roughly 17-21%). Its reasoning centers on a wonderful, understandable franchise run by Goizueta/Keough, held indefinitely, which is the investor's main reason. The biggest gap is emphasis. The agent's case rests heavily on a quantitative DCF margin of safety (35-48%) and calls management's capital allocation 'mixed'. Buffett put the weight on the product's decades-long consumer appeal and on Goizueta's rare blend of marketing and financial skill, and claimed no deep discount. The likely cause is that the agent's framework defaults to valuation hurdles, plus missing qualitative judgment from decades of personally watching the product. No leakage: the 1988 figures came from a January 1989 press report available before the as-of date."
+}

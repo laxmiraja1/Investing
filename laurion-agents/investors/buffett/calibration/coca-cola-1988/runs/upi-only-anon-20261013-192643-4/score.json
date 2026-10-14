@@ -1,0 +1,35 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "matched",
+      "agent_reason_matched": "Recommends a large position 'to be held indefinitely'; sell triggers say a great business with good managers is otherwise held indefinitely and a high price alone is not a reason to sell."
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "'A large, concentrated position is justified because the facts are clear'; says the product hardly changes and needs no technology."
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "matched",
+      "agent_reason_matched": "Cites a 44% worldwide share, more than 155 countries, double the nearest competitor's volume, the 1985 formula reversal as evidence of strong brand attachment, a hundred-year brand history, and low international per-capita consumption."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "matched",
+      "agent_reason_matched": "Management in place since 1981 sold plastics and pasta, moved entertainment into CPE, and now calls itself first and foremost a soft-drink marketer; 74% of operating income is foreign and international consumption has a long runway."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "partial",
+      "agent_reason_matched": "Covers the financial side: the $1-retained test (over $2 of market value per dollar retained) and buybacks at 11-14x earnings. It does not credit a rare mix of marketing and financial skill, and it criticises management for debt, promotional reporting and the entertainment diversification."
+    }
+  ],
+  "spurious_reasons": [],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 4,
+  "notes": "The decision is the same and the size is close (25% against about 17-21%). The agent covers the franchise, its worldwide reach, the 1981 refocus by management and the plan to hold indefinitely. The biggest gap is how the agent rates management. Buffett praised Goizueta's rare mix of marketing and financial skill without reservation. The agent's view is lukewarm: it notes the entertainment diversification, the debt appetite and the promotional reporting. It also leans more on DCF and implied-growth arithmetic than Buffett's letters do. This probably comes from the agent working only from documents, with no personal judgment of the managers and no decades of watching the product. All the data it cites (ar-1986, ar-1987, upi-1989-01-31) predates the as-of date. The company is never named, though the New Coke reference identifies it in practice."
+}

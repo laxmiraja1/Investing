@@ -1,0 +1,35 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "matched",
+      "agent_reason_matched": "Recommends buying and holding indefinitely, based on business quality and able management. Says a default holding period of forever applies and that price alone is not a sell trigger."
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "Calls the business simple to understand and proposes a large 20% position, citing the principle of concentrating when the facts are clear."
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "matched",
+      "agent_reason_matched": "Points to a durable, widening brand advantage: 44% of world volume, a 2:1 fountain lead, the brand surviving the 1985 formula change, and international consumption per person at 16% of the US rate, leaving a long runway."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "partial",
+      "agent_reason_matched": "Notes that management has been in place since 1981, reversed the entertainment diversification in 1987 and prefers to invest in existing lines, and that 77% of soft-drink operating income comes from abroad at 52% pretax returns. However, it treats the diversification episode as a weak spot and the overseas growth partly as a currency risk, not as evidence that management re-energized the company."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "matched",
+      "agent_reason_matched": "Uses the $1 retained / $1 of market value test ($2B retained against $13B of added value), about 24% returns on retained capital against a 12% hurdle, value-adding buybacks, and high payouts while earnings grew."
+    }
+  ],
+  "spurious_reasons": [],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 4,
+  "notes": "The agent matched the decision (BUY) and the size (20% against the investor's roughly 17\u201321%). Its main thesis also matches the investor's: an understandable, wonderful consumer franchise with growing international reach, run by shareholder-minded management, bought to hold indefinitely at a fair rather than bargain price. The biggest gap is how it judged management. The agent saw the 1982\u201386 diversification as a blemish and the overseas growth as partly a currency effect, where Buffett credited Goizueta and Keough with refocusing the company and making overseas sales explode. That difference probably comes from judging management through the packet's numbers instead of decades of personal observation and acquaintance. The agent admits this when it says it would want to meet them. No leakage was found: the executives' names and all figures come from the 1986\u201387 annual reports."
+}

@@ -1,0 +1,35 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "matched",
+      "agent_reason_matched": "'We intend to hold it indefinitely'; price alone is not a sell trigger and this is 'intended as a permanent holding while the economics and management remain sound'; exceptional business plus able management already in place."
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "'Concentration is warranted because the facts are clear'; position sized at about 25%; 'The business is easy to understand, and nothing in it depends on technology we cannot follow.'"
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "partial",
+      "agent_reason_matched": "Covers worldwide reach through the 45% world share, presence in more than 160 countries, the per-capita runway (274 vs 51 servings) and the trademark moat. It does not stress the product's consumer appeal as such or long personal observation of it; this comes through mainly in financial metrics."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "matched",
+      "agent_reason_matched": "Goizueta and Keough have led since 1981, reversed the entertainment diversification and sold non-core businesses, so more than 90% of operating income now comes from soft drinks; strong international growth and runway."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "matched",
+      "agent_reason_matched": "Retained-earnings test (more than $2 of market value per $1 retained since 1981), buybacks below intrinsic value, and per-share compounding from growth, margins and a falling share count."
+    }
+  ],
+  "spurious_reasons": [],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 4,
+  "notes": "The agent matches the decision, the concentrated size (25% vs about 17\u201321%), the indefinite holding period and the main thesis: an understandable franchise with accelerating international growth under refocused, shareholder-minded management. The biggest gap is emphasis. The agent builds the case quantitatively (ROE, owner-earnings DCF, retained-earnings test), while Buffett's stated reasoning stresses the product's consumer appeal, which he had watched for decades, and his judgment of Goizueta's marketing and financial skill. That kind of qualitative, personal judgment is hard to get from a document packet. No leakage is evident. The company is named, but the run is not anonymized. The agent relies on an 'ar-1988' 1988 annual report that may not have been fully public by 1989-02-27, but it came from the packet, not from the agent."
+}

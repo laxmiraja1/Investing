@@ -1,0 +1,35 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "matched",
+      "agent_reason_matched": "Intends to hold indefinitely; a rising price is not a sell trigger; the default for a great business with great managers is to hold for good (brk-letter-1987#18)."
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "Concentrated position (~25%) justified because the facts are very probably right; the business is simple enough to understand."
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "matched",
+      "agent_reason_matched": "Durable moat: 44% of world soft-drink volume, brand strength shown when the 1985 formula change was reversed, presence in 155+ countries, long international runway."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "partial",
+      "agent_reason_matched": "Notes management in place since 1981, diversification 'largely reversed', and 74% of income from abroad, but treats international mainly as a currency risk and voices reservations about management rather than crediting it with a refocus that drove the growth."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "partial",
+      "agent_reason_matched": "Retained-earnings test ($5.60 of market value per $1 retained) and buybacks below value show capital-allocation skill, but these are not tied to the CEO's combined marketing and financial ability, and the agent calls the reports 'promotional'."
+    }
+  ],
+  "spurious_reasons": [],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 3,
+  "notes": "The agent made the same decision as the investor (a concentrated BUY to hold indefinitely), and its size of about 25% is close to the actual 17\u201321%. It also reproduced the franchise and moat reasoning well. The biggest gap is management. Buffett made Goizueta and Keough's refocusing, and the international acceleration it produced, a central reason for the purchase. The agent instead treats management with hedged reservations (leverage appetite, past diversification, promotional reports) and treats international mainly as a currency risk. That gap likely reflects judgment the packet couldn't supply, such as Buffett's personal knowledge of Keough, plus the agent's spreadsheet-heavy DCF emphasis. No later-period facts are used, so leakage is not flagged; the agent does use affiliate acronyms (CCE, CPE) that nearly identify the company, which presumably came from the packet."
+}

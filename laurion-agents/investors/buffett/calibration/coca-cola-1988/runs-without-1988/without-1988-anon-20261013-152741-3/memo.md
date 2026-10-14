@@ -1,0 +1,28 @@
+**Memo: Purchase of Company A (AAA) common stock, as of February 27, 1989**
+
+We propose to buy Company A common stock. Our recommendation is to build the holding to about a quarter of the portfolio, buying only at or below roughly $52 a share. The last price was $46.56. This memo explains what the business is, why it meets our standards, what we think it is worth, and what would change our minds.
+
+Company A is, at its core, a seller of soft-drink syrup and concentrate. More than 95% of its operating income comes from making the flavoring base and selling it to bottlers and fountain customers in over 155 countries. The bottlers carry the heavy capital: plants, trucks, coolers and vending machines. The company also owns minority stakes in several large bottlers, holds 49% of an entertainment company it spun off in 1987, and runs a juice business. Together these sidelines account for about $2.3 billion of investments and roughly 5% of operating income. We judge them separately from the core.
+
+The business clears every preliminary test we apply. It is not a turnaround: earnings per share rose every year from 1977 to 1987, from $0.84 to $2.43. It does not need debt to earn its returns. From 1977 to 1979 it earned about 21% on equity while debt was only 3–6% of capital. Today, net of excess cash and items converted to cash in January 1988, debt is about 15% of capital. The business is simple enough to understand. It is also large enough to matter to us: net income was $916 million in 1987 and the stock market values the company at about $17 billion.
+
+The economics are exceptional. Soft-drink operations earned about 34% pre-tax on their identifiable assets in 1987, and the international business earned about 52%. If we strip out the affiliate investments and surplus cash, the operating business earns roughly 50% after tax on the capital it actually uses. Few large companies come close. Because so little capital is required, what the owners can take out each year is close to reported profit. Net income plus depreciation, less all capital spending, was about $770 million in 1987, or roughly $2.05 a share. That subtraction is conservative, since part of the capital spending was for expansion.
+
+The advantage protecting these returns is real and measurable. The company sells 44% of the world's soft drinks outside the Soviet Union and China, about twice its nearest competitor's volume. It holds over 39% of the U.S. market, nine points ahead of its main rival, and 59% of U.S. fountain sales. It earns about a 63% gross margin on concentrate sold to U.S. bottlers and has contractual freedom to price with its largest one. The brand's strength was tested in 1985, when the company changed its flagship formula and customers forced the original back. Within a year the restored product was the best-selling soft drink in the country. There is also a long runway: outside the U.S., people drink only about a sixth as much soft drink per head as Americans do.
+
+Management has been in place since 1981 and has used capital well on the whole. From 1981 through 1987 the company retained about $4.81 a share of earnings. The share price rose $27 over the same period. Even if we assume the market had valued the earnings at the same multiple as in 1980, each retained dollar still produced more than two and a half dollars of market value. The company has bought back about 12% of its shares since 1984, and the early purchases were made at 12 to 15 times earnings, clearly below value.
+
+We have reservations about management. It has an announced appetite for more debt, and it borrowed to fund buybacks in 1987. It spent much of the decade diversifying into film, television and juice, though it has since largely reversed that diversification. Its reports are more promotional than we would like. We also lack its compensation details and insider holdings.
+
+On value, the working-capital test we once relied on does not apply here; the stock trades at about fifty times net working capital. For a business of this quality, the right question is whether the price makes sense if the future resembles the past. We discount owner earnings for the core at 10%, roughly the company's own long-term borrowing cost. We assume 8–10% annual growth for a decade, then 5% thereafter, and add the investments at their stated market value. That gives a value of about $52 to $60 a share. Put the other way, the current price assumes perpetual growth of only about 5.5% at a 10% discount rate. The company's historical record is about 13%, and volume alone has grown 6–10% a year. At a constant valuation multiple, we would expect returns of roughly 12–14% a year.
+
+The margin of safety is moderate, not large: about 11% in our cautious case and 23% in our central case. It vanishes if we discount at management's own 12% cost of capital. We accept that because the business is unusually predictable. We are limiting the position to about 25%, below our 40% maximum, because the margin is thin, 1988 results are not yet available, and three-quarters of profits are earned abroad and exposed to currency moves.
+
+We intend to hold indefinitely, and a rising price will not by itself be a reason to sell. Our view would change if any of the following happens:
+- 1988 results show stalled earnings in local currencies.
+- Concentrate margins or market share erode.
+- Management spends its borrowing capacity on large acquisitions outside soft drinks.
+- Management issues shares below their value.
+- Management proves less than candid.
+
+A sharp fall in price would be a reason to buy more.

@@ -1,0 +1,35 @@
+{
+  "decision_match": "exact",
+  "sizing_match": "similar",
+  "reason_scores": [
+    {
+      "investor_reason": "An outstanding business with outstanding management, bought to hold indefinitely.",
+      "match": "matched",
+      "agent_reason_matched": "'We intend to... hold it with no planned sale date'; sell triggers say 'The default is to hold permanently'; describes the business as outstanding with able management in place."
+    },
+    {
+      "investor_reason": "Concentration in a very few companies he understands well.",
+      "match": "matched",
+      "agent_reason_matched": "'Concentration is justified because the facts are clear', sized at about 25%; simple concentrate business that 'needs no technology we cannot follow'."
+    },
+    {
+      "investor_reason": "The product's extraordinary consumer appeal and worldwide reach, which he had observed for decades.",
+      "match": "matched",
+      "agent_reason_matched": "Widening moat: trademark lead (Landor surveys), world share up from 38% to 45%, 559M servings a day in 155+ countries, and a long international per-capita runway (51 vs 274 servings). It does not include the personal decades-long observation."
+    },
+    {
+      "investor_reason": "Management (Goizueta and Keough, from 1981) refocused the company and executed; international sales accelerated.",
+      "match": "partial",
+      "agent_reason_matched": "Names Goizueta and Keough as in charge since 1981, notes that 76% of operating income comes from abroad and that the entertainment stake has mostly been distributed. It does not frame the refocusing and the speed-up abroad under this management as a main driver, and it treats overseas growth partly as a currency risk."
+    },
+    {
+      "investor_reason": "A CEO combining marketing and financial skill, so product growth turns into shareholder returns.",
+      "match": "matched",
+      "agent_reason_matched": "Retained earnings produced about $5 of market value per $1 retained, buybacks well below value, payout cut to reinvest above a 12% hurdle. In short, capital allocation turned growth into shareholder returns."
+    }
+  ],
+  "spurious_reasons": [],
+  "leakage_suspected": false,
+  "reasoning_fidelity": 4,
+  "notes": "The agent matches the BUY, the concentrated size (25% vs about 20%) and the core thesis: a wonderful, understandable franchise, run by shareholder-minded management, bought to hold forever. The biggest gap is emphasis. The agent builds the case on quantitative tests (ROE, owner earnings, $1 retained, DCF margin of safety) and treats the Goizueta/Keough refocusing and the overseas sales boom as context or even currency risk. Buffett's stated reasoning centres on decades of watching the product's consumer appeal and on management's renewed momentum. One minor point, not counted as leakage: the agent relies on a 1988 annual report that may not have been fully public by 1989-02-27, though the packet supplied it."
+}
